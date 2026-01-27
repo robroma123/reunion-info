@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" width="64" height="64">
+  <!-- Background circle -->
+  <circle cx="32" cy="32" r="30" fill="#2d6a6a"/>
+  
+  <!-- Letter R -->
+  <text x="22" y="46" font-family="Georgia, serif" font-size="38" font-weight="bold" fill="white">R</text>
+  
+  <!-- Small palm tree accent -->
+  <g transform="translate(44, 12) scale(0.4)">
+    <!-- Palm trunk -->
+    <path d="M12 45 L14 20 L16 45 Z" fill="#8B4513"/>
+    <!-- Palm fronds -->
+    <path d="M14 22 Q5 15 2 8 Q10 12 14 18" fill="#228B22"/>
+    <path d="M14 22 Q14 10 14 2 Q14 12 14 18" fill="#228B22"/>
+    <path d="M14 22 Q23 15 26 8 Q18 12 14 18" fill="#228B22"/>
+    <path d="M14 20 Q8 18 3 20 Q9 16 14 18" fill="#2d8a2d"/>
+    <path d="M14 20 Q20 18 25 20 Q19 16 14 18" fill="#2d8a2d"/>
+  </g>
+</svg>

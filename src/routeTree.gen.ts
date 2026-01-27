@@ -11,10 +11,17 @@
 // Import Routes
 
 import { Route as rootRoute } from './routes/__root'
+import { Route as rootBackupImport } from './routes/__root.backup'
 import { Route as IndexImport } from './routes/index'
 import { Route as IndexBackupImport } from './routes/index.backup'
 
 // Create/Update Routes
+
+const rootBackupRoute = rootBackupImport.update({
+  id: '/__root/backup',
+  path: '/backup',
+  getParentRoute: () => rootRoute,
+} as any)
 
 const IndexRoute = IndexImport.update({
   id: '/',
@@ -39,6 +46,13 @@ declare module '@tanstack/react-router' {
       preLoaderRoute: typeof IndexImport
       parentRoute: typeof rootRoute
     }
+    '/__root/backup': {
+      id: '/__root/backup'
+      path: '/backup'
+      fullPath: '/backup'
+      preLoaderRoute: typeof rootBackupImport
+      parentRoute: typeof rootRoute
+    }
     '/index/backup': {
       id: '/index/backup'
       path: '/index/backup'
@@ -53,36 +67,41 @@ declare module '@tanstack/react-router' {
 
 export interface FileRoutesByFullPath {
   '/': typeof IndexRoute
+  '/backup': typeof rootBackupRoute
   '/index/backup': typeof IndexBackupRoute
 }
 
 export interface FileRoutesByTo {
   '/': typeof IndexRoute
+  '/backup': typeof rootBackupRoute
   '/index/backup': typeof IndexBackupRoute
 }
 
 export interface FileRoutesById {
   __root__: typeof rootRoute
   '/': typeof IndexRoute
+  '/__root/backup': typeof rootBackupRoute
   '/index/backup': typeof IndexBackupRoute
 }
 
 export interface FileRouteTypes {
   fileRoutesByFullPath: FileRoutesByFullPath
-  fullPaths: '/' | '/index/backup'
+  fullPaths: '/' | '/backup' | '/index/backup'
   fileRoutesByTo: FileRoutesByTo
-  to: '/' | '/index/backup'
-  id: '__root__' | '/' | '/index/backup'
+  to: '/' | '/backup' | '/index/backup'
+  id: '__root__' | '/' | '/__root/backup' | '/index/backup'
   fileRoutesById: FileRoutesById
 }
 
 export interface RootRouteChildren {
   IndexRoute: typeof IndexRoute
+  rootBackupRoute: typeof rootBackupRoute
   IndexBackupRoute: typeof IndexBackupRoute
 }
 
 const rootRouteChildren: RootRouteChildren = {
   IndexRoute: IndexRoute,
+  rootBackupRoute: rootBackupRoute,
   IndexBackupRoute: IndexBackupRoute,
 }
 
@@ -97,11 +116,15 @@ export const routeTree = rootRoute
       "filePath": "__root.tsx",
       "children": [
         "/",
+        "/__root/backup",
         "/index/backup"
       ]
     },
     "/": {
       "filePath": "index.tsx"
+    },
+    "/__root/backup": {
+      "filePath": "__root.backup.tsx"
     },
     "/index/backup": {
       "filePath": "index.backup.tsx"
