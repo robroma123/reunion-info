@@ -209,28 +209,61 @@ function ReunionPage() {
             <div className="bg-white rounded-lg shadow-lg overflow-hidden">
               <div className="p-4 bg-[#2d6a6a] text-white flex items-center justify-between">
                 <h3 className="text-lg font-medium">Reunion Presentation - Part 1</h3>
-                <a href="/reunion_1_2.pdf" download className="text-sm bg-amber-400 text-gray-900 px-4 py-2 rounded hover:bg-amber-300 transition-colors">Download PDF</a>
+                {/* Desktop: Download button */}
+                <a href="/reunion_1_2.pdf" download className="hidden md:inline-block text-sm bg-amber-400 text-gray-900 px-4 py-2 rounded hover:bg-amber-300 transition-colors">Download PDF</a>
+                {/* Mobile: Tap to view button */}
+                <a href="/reunion_1_2.pdf" target="_blank" rel="noopener noreferrer" className="md:hidden inline-flex items-center gap-1 text-sm bg-amber-400 text-gray-900 px-4 py-2 rounded hover:bg-amber-300 transition-colors">
+                  Tap to View
+                  <ExternalLink className="w-4 h-4" />
+                </a>
               </div>
-              <div className="aspect-[4/3] w-full">
+              {/* Desktop: iframe */}
+              <div className="hidden md:block aspect-[4/3] w-full">
                 <iframe src="/reunion_1_2.pdf" width="100%" height="100%" title="Reunion Presentation Part 1" className="w-full h-full border-0"></iframe>
+              </div>
+              {/* Mobile: preview image */}
+              <div className="md:hidden aspect-[4/3] w-full">
+                <img src="/reunion_1_preview.jpg" alt="Reunion Presentation Part 1 Preview" className="w-full h-full object-cover" />
               </div>
             </div>
             <div className="bg-white rounded-lg shadow-lg overflow-hidden">
               <div className="p-4 bg-[#2d6a6a] text-white flex items-center justify-between">
                 <h3 className="text-lg font-medium">Reunion Presentation - Part 2</h3>
-                <a href="/reunion_2_2.pdf" download className="text-sm bg-amber-400 text-gray-900 px-4 py-2 rounded hover:bg-amber-300 transition-colors">Download PDF</a>
+                {/* Desktop: Download button */}
+                <a href="/reunion_2_2.pdf" download className="hidden md:inline-block text-sm bg-amber-400 text-gray-900 px-4 py-2 rounded hover:bg-amber-300 transition-colors">Download PDF</a>
+                {/* Mobile: Tap to view button */}
+                <a href="/reunion_2_2.pdf" target="_blank" rel="noopener noreferrer" className="md:hidden inline-flex items-center gap-1 text-sm bg-amber-400 text-gray-900 px-4 py-2 rounded hover:bg-amber-300 transition-colors">
+                  Tap to View
+                  <ExternalLink className="w-4 h-4" />
+                </a>
               </div>
-              <div className="aspect-[4/3] w-full">
+              {/* Desktop: iframe */}
+              <div className="hidden md:block aspect-[4/3] w-full">
                 <iframe src="/reunion_2_2.pdf" width="100%" height="100%" title="Reunion Presentation Part 2" className="w-full h-full border-0"></iframe>
+              </div>
+              {/* Mobile: preview image */}
+              <div className="md:hidden aspect-[4/3] w-full">
+                <img src="/reunion_2_preview.jpg" alt="Reunion Presentation Part 2 Preview" className="w-full h-full object-cover" />
               </div>
             </div>
             <div className="bg-white rounded-lg shadow-lg overflow-hidden">
               <div className="p-4 bg-[#2d6a6a] text-white flex items-center justify-between">
                 <h3 className="text-lg font-medium">Reunion Pricing Information</h3>
-                <a href="/reunion_pricing.pdf" download className="text-sm bg-amber-400 text-gray-900 px-4 py-2 rounded hover:bg-amber-300 transition-colors">Download PDF</a>
+                {/* Desktop: Download button */}
+                <a href="/reunion_pricing.pdf" download className="hidden md:inline-block text-sm bg-amber-400 text-gray-900 px-4 py-2 rounded hover:bg-amber-300 transition-colors">Download PDF</a>
+                {/* Mobile: Tap to view button */}
+                <a href="/reunion_pricing.pdf" target="_blank" rel="noopener noreferrer" className="md:hidden inline-flex items-center gap-1 text-sm bg-amber-400 text-gray-900 px-4 py-2 rounded hover:bg-amber-300 transition-colors">
+                  Tap to View
+                  <ExternalLink className="w-4 h-4" />
+                </a>
               </div>
-              <div className="aspect-[4/3] w-full">
+              {/* Desktop: iframe */}
+              <div className="hidden md:block aspect-[4/3] w-full">
                 <iframe src="/reunion_pricing.pdf" width="100%" height="100%" title="Reunion Pricing Information" className="w-full h-full border-0"></iframe>
+              </div>
+              {/* Mobile: preview image */}
+              <div className="md:hidden aspect-[4/3] w-full">
+                <img src="/reunion_pricing_preview.jpg" alt="Reunion Pricing Information Preview" className="w-full h-full object-cover" />
               </div>
             </div>
 
