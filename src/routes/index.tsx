@@ -270,7 +270,7 @@ function ReunionPage() {
             {/* External Resource Links */}
             <div className="grid md:grid-cols-2 gap-6 mt-12">
               <a
-                href="https://mgltdca-my.sharepoint.com/personal/kathryn_winstanley_mgltd_ca/_layouts/15/onedrive.aspx?id=%2Fpersonal%2Fkathryn%5Fwinstanley%5Fmgltd%5Fca%2FDocuments%2F3rd%20Party%20Retreat%20Host%20%2D%20Info%20Pack%20Links&ga=1"
+                href="https://e.pcloud.link/publink/show?code=kZKIeaZccPqKIA4174xWnmLWBrlpYKMKi3X"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="bg-white rounded-lg shadow-lg p-8 flex flex-col items-center justify-center text-center hover:shadow-xl transition-shadow group"
