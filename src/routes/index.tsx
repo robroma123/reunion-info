@@ -95,7 +95,7 @@ function ReunionPage() {
 
         <h2 className="text-xl md:text-2xl font-bold text-amber-900 mt-6 mb-2">About This Page</h2>
         <p className="text-base md:text-lg text-amber-900 leading-snug max-w-4xl mx-auto">
-          My name is Robert Romano. I'm a licensed healthcare provider and IPI graduate who attended a plant medicine retreat at Reunion in February of 2024. After my own profound retreat experience there—which genuinely transformed my life—I've been discussing this venue with other IPI graduates and friends of IPI for the past two years. Several colleagues asked me to share the materials Haamid, the Reunion Director of Enrollment, provided and so I created this page.
+          My name is Robert Romano. I'm a licensed healthcare provider and IPI graduate who attended a plant medicine retreat at Reunion in February of 2024. After my own profound retreat experience there—which genuinely transformed my life—I've been discussing this venue with other IPI graduates and friends of IPI for the past two years. Several colleagues asked me to share the materials Haamid, the Reunion Director of Enrollment, provided and so I created this space.
         </p>
 
         <h2 className="text-xl md:text-2xl font-bold text-amber-900 mt-6 mb-2">Why This Resource Exists</h2>
@@ -110,12 +110,15 @@ function ReunionPage() {
 
         <h2 className="text-xl md:text-2xl font-bold text-amber-900 mt-6 mb-2">Want to Talk?</h2>
         <p className="text-base md:text-lg text-amber-900 leading-snug max-w-4xl mx-auto">
-          If you have questions about safety practices at Reunion and ethical considerations for hosting a retreat as they relate to my own personal experiences there, I am happy to connect. Feel free to reach out at: <a href="mailto:retreats@robromano.com" className="underline hover:text-amber-950 font-bold">retreats@robromano.com</a> or <a href="https://schedule.robromano.com" target="_blank" rel="noopener noreferrer" className="underline hover:text-amber-950 font-bold">schedule a brief call</a> <span className="font-bold">(select "Retreat Prospect (20 min)"</span>. As a healthcare provider, I understand that safety and ethical practice are non-negotiable—and I'm here to share my own experience. I'm also happy to introduce you to other IPI colleagues exploring Reunion as a retreat venue and help get initial conversations going—though this won't be a long-term role.
+          If you have questions about safety practices at Reunion and ethical considerations for hosting a retreat as they relate to my own personal experiences there, I am happy to connect. Feel free to reach out at: <a href="mailto:retreats@robromano.com" className="underline hover:text-amber-950 font-bold">retreats@robromano.com</a> or <a href="https://schedule.robromano.com" target="_blank" rel="noopener noreferrer" className="underline hover:text-amber-950 font-bold">schedule a brief call</a> <span className="font-bold">(select "Retreat Prospect (20 min)"</span>.
+        </p>
+        <p className="text-base md:text-lg text-amber-900 leading-snug max-w-4xl mx-auto mt-2">
+          As a healthcare provider, I understand that safety and ethical practice are non-negotiable—and I'm here to share my own experience. I'm also happy to introduce you to other IPI colleagues exploring Reunion as a retreat venue and help get initial conversations going—though this won't be a long-term role.
         </p>
 
         <h2 className="text-xl md:text-2xl font-bold text-amber-900 mt-6 mb-2">For Official Reunion Information</h2>
         <p className="text-base md:text-lg text-amber-900 leading-snug max-w-4xl mx-auto">
-          For all official Reunion information, questions about hosting, pricing, and bookings, please contact Haamid directly (Haamid is the formal authority on all offerings Reunion related):
+          For all official Reunion information, questions about hosting, pricing, safety and bookings, please contact Haamid directly (Haamid is the formal authority on all offerings Reunion related):
         </p>
         <div className="mt-3 text-base md:text-lg text-amber-900 font-semibold leading-relaxed space-y-0">
           <p className="font-bold">HAAMID DASH</p>
@@ -125,7 +128,7 @@ function ReunionPage() {
           <p>Web: <a href="https://www.reunionwellness.org" target="_blank" rel="noopener noreferrer" className="underline hover:text-amber-950">www.reunionwellness.org</a></p>
           <p>Location: Sugar Beach, Guanacaste, Costa Rica</p>
         </div>
-        <p className="text-base md:text-lg text-amber-900 leading-snug max-w-4xl mx-auto mt-4 font-bold underline">
+        <p className="text-lg md:text-xl text-amber-900 leading-snug max-w-4xl mx-auto mt-4 font-bold underline">
           Be sure to mention you're an IPI grad or a friend of IPI when you reach out!
         </p>
       </div>
