@@ -12,7 +12,6 @@ function ReunionPage() {
     return () => window.removeEventListener('scroll', handleScroll)
   }, [])
 
-  const showNav = scrollY > 200
   const showBackToTop = scrollY > 400
 
   const scrollToSection = (id: string) => {
@@ -48,21 +47,16 @@ function ReunionPage() {
 
   return (
     <div className="min-h-screen bg-[#f5f3ef] text-gray-800">
-      {/* Sticky Navigation */}
-      <nav
-        className={`fixed top-0 left-0 right-0 z-50 transition-all duration-300 ${
-          showNav
-            ? 'opacity-100 translate-y-0'
-            : 'opacity-0 -translate-y-full pointer-events-none'
-        }`}
-      >
+      {/* Fixed Navigation */}
+      <nav className="fixed top-0 left-0 right-0 z-50">
         <div className="bg-[#2d6a6a]/95 backdrop-blur-sm shadow-md">
-          <div className="max-w-6xl mx-auto px-3 md:px-6 py-3 flex items-center justify-center gap-3 md:gap-8">
-            <button onClick={() => scrollToSection('featured-video')} className="text-white/80 hover:text-white text-sm font-medium transition-colors">Video</button>
-            <button onClick={() => scrollToSection('explore')} className="text-white/80 hover:text-white text-sm font-medium transition-colors">Explore</button>
-            <button onClick={() => scrollToSection('pricing')} className="text-white/80 hover:text-white text-sm font-medium transition-colors">Pricing</button>
-            <button onClick={() => scrollToSection('faq')} className="text-white/80 hover:text-white text-sm font-medium transition-colors">FAQ</button>
-            <button onClick={() => scrollToSection('contact')} className="text-white/80 hover:text-white text-sm font-medium transition-colors">Contact</button>
+          <div className="max-w-6xl mx-auto px-2 md:px-6 py-3 flex items-center justify-center gap-2 md:gap-6">
+            <button onClick={() => scrollToSection('ipi-friends')} className="text-white/80 hover:text-white text-xs md:text-sm font-medium transition-colors">IPI/Friends</button>
+            <button onClick={() => scrollToSection('featured-video')} className="text-white/80 hover:text-white text-xs md:text-sm font-medium transition-colors">Video</button>
+            <button onClick={() => scrollToSection('explore')} className="text-white/80 hover:text-white text-xs md:text-sm font-medium transition-colors">Explore</button>
+            <button onClick={() => scrollToSection('pricing')} className="text-white/80 hover:text-white text-xs md:text-sm font-medium transition-colors">Pricing</button>
+            <button onClick={() => scrollToSection('faq')} className="text-white/80 hover:text-white text-xs md:text-sm font-medium transition-colors">FAQ</button>
+            <button onClick={() => scrollToSection('contact')} className="text-white/80 hover:text-white text-xs md:text-sm font-medium transition-colors">Contact</button>
           </div>
         </div>
       </nav>
@@ -81,7 +75,7 @@ function ReunionPage() {
       </button>
 
       {/* Disclaimer Banner */}
-      <div className="bg-amber-100 border-b-2 border-amber-300 px-5 py-3 text-center">
+      <div id="ipi-friends" className="bg-amber-100 border-b-2 border-amber-300 px-5 py-3 text-center">
         <p className="text-sm md:text-base text-amber-900 leading-snug max-w-4xl mx-auto">
           <span className="font-bold">Please Note:</span> This is <span className="font-bold uppercase">NOT</span> an official Reunion website, nor am I representing, affiliated with, or endorsing Reunion or IPI in any formal capacity. This resource was created by an IPI graduate who is also a former Reunion Retreat Guest.
         </p>
