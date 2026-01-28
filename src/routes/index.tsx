@@ -273,7 +273,7 @@ function ReunionPage() {
             </div>
             <div className="mt-8 pt-8 border-t border-gray-300 text-center">
               <p className="font-bold text-lg text-gray-800 mb-2">Interested in co-facilitating with other IPI grads and friends of IPI grads?</p>
-              <a href="mailto:retreats@robromano.com" className="text-[#2d6a6a] hover:text-[#245757] underline font-bold">retreats@robromano.com</a>
+              <a href="mailto:retreats@robromano.com" className="text-amber-500 hover:text-amber-600 underline font-bold">retreats@robromano.com</a>
             </div>
           </div>
         </div>
