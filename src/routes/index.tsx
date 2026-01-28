@@ -452,7 +452,7 @@ function ReunionPage() {
             <ExternalLink className="w-5 h-5" />
           </a>
           <div className="border-t border-white/20 pt-8">
-            <p className="font-bold text-lg mb-2">Interested in co-facilitating with other IPI grads?</p>
+            <p className="font-bold text-lg mb-2">Interested in co-facilitating with other IPI grads and friends of IPI grads?</p>
             <a href="mailto:retreats@robromano.com" className="text-amber-400 hover:text-amber-300 underline">retreats@robromano.com</a>
           </div>
         </div>
