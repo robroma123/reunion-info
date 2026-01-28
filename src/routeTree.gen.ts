@@ -13,6 +13,7 @@
 import { Route as rootRoute } from './routes/__root'
 import { Route as rootBackupImport } from './routes/__root.backup'
 import { Route as IndexImport } from './routes/index'
+import { Route as IndexBackup3Import } from './routes/index.backup3'
 import { Route as IndexBackupImport } from './routes/index.backup'
 
 // Create/Update Routes
@@ -26,6 +27,12 @@ const rootBackupRoute = rootBackupImport.update({
 const IndexRoute = IndexImport.update({
   id: '/',
   path: '/',
+  getParentRoute: () => rootRoute,
+} as any)
+
+const IndexBackup3Route = IndexBackup3Import.update({
+  id: '/index/backup3',
+  path: '/index/backup3',
   getParentRoute: () => rootRoute,
 } as any)
 
@@ -60,6 +67,13 @@ declare module '@tanstack/react-router' {
       preLoaderRoute: typeof IndexBackupImport
       parentRoute: typeof rootRoute
     }
+    '/index/backup3': {
+      id: '/index/backup3'
+      path: '/index/backup3'
+      fullPath: '/index/backup3'
+      preLoaderRoute: typeof IndexBackup3Import
+      parentRoute: typeof rootRoute
+    }
   }
 }
 
@@ -69,12 +83,14 @@ export interface FileRoutesByFullPath {
   '/': typeof IndexRoute
   '/backup': typeof rootBackupRoute
   '/index/backup': typeof IndexBackupRoute
+  '/index/backup3': typeof IndexBackup3Route
 }
 
 export interface FileRoutesByTo {
   '/': typeof IndexRoute
   '/backup': typeof rootBackupRoute
   '/index/backup': typeof IndexBackupRoute
+  '/index/backup3': typeof IndexBackup3Route
 }
 
 export interface FileRoutesById {
@@ -82,14 +98,15 @@ export interface FileRoutesById {
   '/': typeof IndexRoute
   '/__root/backup': typeof rootBackupRoute
   '/index/backup': typeof IndexBackupRoute
+  '/index/backup3': typeof IndexBackup3Route
 }
 
 export interface FileRouteTypes {
   fileRoutesByFullPath: FileRoutesByFullPath
-  fullPaths: '/' | '/backup' | '/index/backup'
+  fullPaths: '/' | '/backup' | '/index/backup' | '/index/backup3'
   fileRoutesByTo: FileRoutesByTo
-  to: '/' | '/backup' | '/index/backup'
-  id: '__root__' | '/' | '/__root/backup' | '/index/backup'
+  to: '/' | '/backup' | '/index/backup' | '/index/backup3'
+  id: '__root__' | '/' | '/__root/backup' | '/index/backup' | '/index/backup3'
   fileRoutesById: FileRoutesById
 }
 
@@ -97,12 +114,14 @@ export interface RootRouteChildren {
   IndexRoute: typeof IndexRoute
   rootBackupRoute: typeof rootBackupRoute
   IndexBackupRoute: typeof IndexBackupRoute
+  IndexBackup3Route: typeof IndexBackup3Route
 }
 
 const rootRouteChildren: RootRouteChildren = {
   IndexRoute: IndexRoute,
   rootBackupRoute: rootBackupRoute,
   IndexBackupRoute: IndexBackupRoute,
+  IndexBackup3Route: IndexBackup3Route,
 }
 
 export const routeTree = rootRoute
@@ -117,7 +136,8 @@ export const routeTree = rootRoute
       "children": [
         "/",
         "/__root/backup",
-        "/index/backup"
+        "/index/backup",
+        "/index/backup3"
       ]
     },
     "/": {
@@ -128,6 +148,9 @@ export const routeTree = rootRoute
     },
     "/index/backup": {
       "filePath": "index.backup.tsx"
+    },
+    "/index/backup3": {
+      "filePath": "index.backup3.tsx"
     }
   }
 }
