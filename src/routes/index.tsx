@@ -136,6 +136,10 @@ function ReunionPage() {
             <p className="text-amber-300 text-lg font-medium mb-2">Have questions after watching?</p>
             <p className="text-gray-300 mb-2">Contact Haamid directly at <a href="mailto:haamid.dash@reunionexperience.org" className="text-amber-400 hover:text-amber-300 underline">haamid.dash@reunionexperience.org</a> or call <a href="tel:+18883285317" className="text-amber-400 hover:text-amber-300 underline">+1 888-328-5317 x 100</a>.</p>
             <p className="text-gray-300 font-bold underline">Let him know you are an IPI grad or a friend of IPI!</p>
+            <div className="mt-6 pt-6 border-t border-white/20">
+              <p className="text-amber-300 font-medium">Interested in co-facilitating with other IPI grads and friends of IPI grads?</p>
+              <a href="mailto:retreats@robromano.com" className="text-amber-400 hover:text-amber-300 underline">retreats@robromano.com</a>
+            </div>
           </div>
         </div>
       </section>
@@ -259,6 +263,10 @@ function ReunionPage() {
                 <h3 className="text-xl font-medium text-gray-800 mb-2">Reunion YouTube Channel</h3>
                 <p className="text-gray-600 text-sm">Watch videos from Reunion Experience</p>
               </a>
+            </div>
+            <div className="mt-8 text-center">
+              <p className="text-gray-700 font-medium">Interested in co-facilitating with other IPI grads and friends of IPI grads?</p>
+              <a href="mailto:retreats@robromano.com" className="text-[#2d6a6a] hover:text-[#245757] underline font-medium">retreats@robromano.com</a>
             </div>
           </div>
         </div>
