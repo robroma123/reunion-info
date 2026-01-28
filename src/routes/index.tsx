@@ -109,8 +109,8 @@ function ReunionPage() {
         </p>
 
         <h2 className="text-xl md:text-2xl font-bold text-amber-900 mt-6 mb-2">Want to Talk?</h2>
-        <p className="text-base md:text-lg text-amber-900 leading-snug max-w-4xl mx-auto">
-          Happy to share my personal Reunion experience if it will help you in your decision-making process. I'm available for a conversation at: <a href="mailto:retreats@robromano.com" className="underline hover:text-amber-950 font-bold">retreats@robromano.com</a> or <a href="https://schedule.robromano.com" target="_blank" rel="noopener noreferrer" className="underline hover:text-amber-950 font-bold">schedule a brief call</a> <span className="font-bold">(select Retreat Prospect (20 min).</span>
+        <p className="text-base md:text-lg text-amber-900 leading-snug max-w-4xl mx-auto font-bold">
+          Happy to share my personal Reunion experience if it will help you in your decision-making process. I'm available for a conversation at: <a href="mailto:retreats@robromano.com" className="underline hover:text-amber-950">retreats@robromano.com</a> or <a href="https://schedule.robromano.com" target="_blank" rel="noopener noreferrer" className="underline hover:text-amber-950">schedule a brief call</a> (select Retreat Prospect (20 min).
         </p>
         <p className="text-base md:text-lg text-amber-900 leading-snug max-w-4xl mx-auto mt-2">
           As a healthcare provider, I understand that safety and ethical practice are non-negotiable—and I'm here to share my own experience. I'm also happy to introduce you to other IPI colleagues exploring Reunion as a retreat venue and help get initial conversations going—though this won't be a long-term role.
@@ -161,7 +161,7 @@ function ReunionPage() {
             <p className="text-gray-300 mb-2">Contact Haamid directly at <a href="mailto:haamid.dash@reunionexperience.org" className="text-amber-400 hover:text-amber-300 underline">haamid.dash@reunionexperience.org</a> or call <a href="tel:+18883285317" className="text-amber-400 hover:text-amber-300 underline">+1 888-328-5317 x 100</a>.</p>
             <p className="text-gray-300 font-bold underline">Let him know you are an IPI grad or a friend of IPI!</p>
             <div className="mt-6 pt-6 border-t border-white/20">
-              <p className="text-white">Happy to share my personal Reunion experience if it will help you in your decision-making process. I'm available for a conversation at: <a href="mailto:retreats@robromano.com" className="text-amber-400 hover:text-amber-300 underline font-bold">retreats@robromano.com</a> or <a href="https://schedule.robromano.com" target="_blank" rel="noopener noreferrer" className="text-amber-400 hover:text-amber-300 underline font-bold">schedule a brief call</a> <span className="font-bold">(select Retreat Prospect (20 min).</span></p>
+              <p className="text-white font-bold">Happy to share my personal Reunion experience if it will help you in your decision-making process. I'm available for a conversation at: <a href="mailto:retreats@robromano.com" className="text-amber-400 hover:text-amber-300 underline">retreats@robromano.com</a> or <a href="https://schedule.robromano.com" target="_blank" rel="noopener noreferrer" className="text-amber-400 hover:text-amber-300 underline">schedule a brief call</a> (select Retreat Prospect (20 min).</p>
             </div>
           </div>
         </div>
@@ -288,7 +288,7 @@ function ReunionPage() {
               </a>
             </div>
             <div className="mt-8 pt-8 border-t border-gray-300 text-center">
-              <p className="text-gray-800">Happy to share my personal Reunion experience if it will help you in your decision-making process. I'm available for a conversation at: <a href="mailto:retreats@robromano.com" className="text-amber-500 hover:text-amber-600 underline font-bold">retreats@robromano.com</a> or <a href="https://schedule.robromano.com" target="_blank" rel="noopener noreferrer" className="text-amber-500 hover:text-amber-600 underline font-bold">schedule a brief call</a> <span className="font-bold">(select Retreat Prospect (20 min).</span></p>
+              <p className="text-gray-800 font-bold">Happy to share my personal Reunion experience if it will help you in your decision-making process. I'm available for a conversation at: <a href="mailto:retreats@robromano.com" className="text-amber-500 hover:text-amber-600 underline">retreats@robromano.com</a> or <a href="https://schedule.robromano.com" target="_blank" rel="noopener noreferrer" className="text-amber-500 hover:text-amber-600 underline">schedule a brief call</a> (select Retreat Prospect (20 min).</p>
             </div>
           </div>
         </div>
@@ -426,7 +426,7 @@ function ReunionPage() {
               <li>• <strong>60+ guests:</strong> Complimentary 3-Bedroom Oceanfront Villa (up to 5 people) + 1 free night pre-retreat for setup</li>
             </ul>
             <div className="mt-6 pt-6 border-t border-white/20 text-center">
-              <p className="text-white">Happy to share my personal Reunion experience if it will help you in your decision-making process. I'm available for a conversation at: <a href="mailto:retreats@robromano.com" className="text-amber-400 hover:text-amber-300 underline font-bold">retreats@robromano.com</a> or <a href="https://schedule.robromano.com" target="_blank" rel="noopener noreferrer" className="text-amber-400 hover:text-amber-300 underline font-bold">schedule a brief call</a> <span className="font-bold">(select Retreat Prospect (20 min).</span></p>
+              <p className="text-white font-bold">Happy to share my personal Reunion experience if it will help you in your decision-making process. I'm available for a conversation at: <a href="mailto:retreats@robromano.com" className="text-amber-400 hover:text-amber-300 underline">retreats@robromano.com</a> or <a href="https://schedule.robromano.com" target="_blank" rel="noopener noreferrer" className="text-amber-400 hover:text-amber-300 underline">schedule a brief call</a> (select Retreat Prospect (20 min).</p>
             </div>
           </div>
         </div>
@@ -488,8 +488,7 @@ function ReunionPage() {
             <ExternalLink className="w-5 h-5" />
           </a>
           <div className="border-t border-white/20 pt-8">
-            <p className="text-white font-bold text-lg mb-2">Considering hosting and want to hear about my Reunion Experience?</p>
-            <p className="text-white">Feel free to reach out at: <a href="mailto:retreats@robromano.com" className="text-amber-400 hover:text-amber-300 underline font-bold">retreats@robromano.com</a> or <a href="https://schedule.robromano.com" target="_blank" rel="noopener noreferrer" className="text-amber-400 hover:text-amber-300 underline font-bold">schedule a brief call</a> <span className="font-bold">(select "Retreat Prospect (20 min)."</span></p>
+            <p className="text-white font-bold">Happy to share my personal Reunion experience if it will help you in your decision-making process. I'm available for a conversation at: <a href="mailto:retreats@robromano.com" className="text-amber-400 hover:text-amber-300 underline">retreats@robromano.com</a> or <a href="https://schedule.robromano.com" target="_blank" rel="noopener noreferrer" className="text-amber-400 hover:text-amber-300 underline">schedule a brief call</a> (select Retreat Prospect (20 min).</p>
           </div>
         </div>
       </section>
