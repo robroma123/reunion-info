@@ -18,7 +18,19 @@ export const Route = createRootRoute({
         content: 'width=device-width, initial-scale=1',
       },
       {
-        title: 'Executive Wellness Retreat | April 2026 | Costa Rica',
+        title: 'Reunion Costa Rica | Retreat Hosting Information',
+      },
+      {
+        property: 'og:title',
+        content: 'Reunion Costa Rica | Retreat Hosting Information',
+      },
+      {
+        property: 'og:image',
+        content: 'https://reunioncr.com/reunion2.jpg',
+      },
+      {
+        property: 'og:type',
+        content: 'website',
       },
     ],
     links: [
