@@ -410,6 +410,10 @@ function ReunionPage() {
               <li>• <strong>15+ guests:</strong> Complimentary Junior Suite for host (up to 2 people) + 1 free night pre-retreat for setup</li>
               <li>• <strong>60+ guests:</strong> Complimentary 3-Bedroom Oceanfront Villa (up to 5 people) + 1 free night pre-retreat for setup</li>
             </ul>
+            <div className="mt-6 pt-6 border-t border-white/20">
+              <p className="text-white font-bold text-lg mb-2">Interested in co-facilitating with other IPI grads and friends of IPI grads?</p>
+              <a href="mailto:retreats@robromano.com" className="text-amber-400 hover:text-amber-300 underline font-bold">retreats@robromano.com</a>
+            </div>
           </div>
         </div>
       </section>
