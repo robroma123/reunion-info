@@ -12,6 +12,13 @@ function ReunionPage() {
     return () => window.removeEventListener('scroll', handleScroll)
   }, [])
 
+  // Auto-scroll to "Please Note:" for visitors from retreats.robromano.com
+  useEffect(() => {
+    if (window.location.hostname === 'retreats.robromano.com') {
+      document.getElementById('ipi-friends')?.scrollIntoView()
+    }
+  }, [])
+
   const showBackToTop = scrollY > 400
 
   const scrollToSection = (id: string) => {
