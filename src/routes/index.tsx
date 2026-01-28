@@ -57,7 +57,7 @@ function ReunionPage() {
         }`}
       >
         <div className="bg-[#2d6a6a]/95 backdrop-blur-sm shadow-md">
-          <div className="max-w-6xl mx-auto px-6 py-3 flex items-center justify-center gap-8">
+          <div className="max-w-6xl mx-auto px-3 md:px-6 py-3 flex items-center justify-center gap-3 md:gap-8">
             <button onClick={() => scrollToSection('featured-video')} className="text-white/80 hover:text-white text-sm font-medium transition-colors">Video</button>
             <button onClick={() => scrollToSection('explore')} className="text-white/80 hover:text-white text-sm font-medium transition-colors">Explore</button>
             <button onClick={() => scrollToSection('pricing')} className="text-white/80 hover:text-white text-sm font-medium transition-colors">Pricing</button>
