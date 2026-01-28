@@ -144,8 +144,8 @@ function ReunionPage() {
             <p className="text-gray-300 mb-2">Contact Haamid directly at <a href="mailto:haamid.dash@reunionexperience.org" className="text-amber-400 hover:text-amber-300 underline">haamid.dash@reunionexperience.org</a> or call <a href="tel:+18883285317" className="text-amber-400 hover:text-amber-300 underline">+1 888-328-5317 x 100</a>.</p>
             <p className="text-gray-300 font-bold underline">Let him know you are an IPI grad or a friend of IPI!</p>
             <div className="mt-6 pt-6 border-t border-white/20">
-              <p className="font-bold text-lg mb-2">Interested in co-facilitating with other IPI grads and friends of IPI grads?</p>
-              <a href="mailto:retreats@robromano.com" className="text-amber-400 hover:text-amber-300 underline">retreats@robromano.com</a>
+              <p className="text-white font-bold text-lg mb-2">Interested in co-facilitating with other IPI grads and friends of IPI grads?</p>
+              <a href="mailto:retreats@robromano.com" className="text-amber-400 hover:text-amber-300 underline font-bold">retreats@robromano.com</a>
             </div>
           </div>
         </div>
@@ -273,7 +273,7 @@ function ReunionPage() {
             </div>
             <div className="mt-8 pt-8 border-t border-gray-300 text-center">
               <p className="font-bold text-lg text-gray-800 mb-2">Interested in co-facilitating with other IPI grads and friends of IPI grads?</p>
-              <a href="mailto:retreats@robromano.com" className="text-[#2d6a6a] hover:text-[#245757] underline">retreats@robromano.com</a>
+              <a href="mailto:retreats@robromano.com" className="text-[#2d6a6a] hover:text-[#245757] underline font-bold">retreats@robromano.com</a>
             </div>
           </div>
         </div>
@@ -470,8 +470,8 @@ function ReunionPage() {
             <ExternalLink className="w-5 h-5" />
           </a>
           <div className="border-t border-white/20 pt-8">
-            <p className="font-bold text-lg mb-2">Interested in co-facilitating with other IPI grads and friends of IPI grads?</p>
-            <a href="mailto:retreats@robromano.com" className="text-amber-400 hover:text-amber-300 underline">retreats@robromano.com</a>
+            <p className="text-white font-bold text-lg mb-2">Interested in co-facilitating with other IPI grads and friends of IPI grads?</p>
+            <a href="mailto:retreats@robromano.com" className="text-amber-400 hover:text-amber-300 underline font-bold">retreats@robromano.com</a>
           </div>
         </div>
       </section>
