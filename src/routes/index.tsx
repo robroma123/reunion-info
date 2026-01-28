@@ -83,7 +83,7 @@ function ReunionPage() {
 
       {/* Disclaimer Banner */}
       <div className="bg-amber-100 border-b-2 border-amber-300 px-5 pt-20 pb-6 text-center">
-        <h1 id="ipi-friends" className="text-2xl md:text-3xl font-bold text-amber-900 mb-4 scroll-mt-14">Reunion Retreat Resource</h1>
+        <h1 id="ipi-friends" className="text-2xl md:text-3xl font-bold text-amber-900 mb-4 scroll-mt-14">IPI and Friends of IPI - Reunion Retreat Resource</h1>
 
         <p className="text-sm md:text-base text-amber-900 leading-snug max-w-4xl mx-auto">
           <span className="font-bold">Please Note:</span> This is <span className="font-bold uppercase">NOT</span> an official Reunion website, nor am I representing, affiliated with, or endorsing Reunion or IPI in any formal capacity. This resource was created by an IPI graduate and former Reunion Retreat Guest.
@@ -100,24 +100,24 @@ function ReunionPage() {
 
         <h2 className="text-lg md:text-xl font-bold text-amber-900 mt-6 mb-2">Why This Resource Exists</h2>
         <p className="text-sm md:text-base text-amber-900 leading-snug max-w-4xl mx-auto">
-          Haamid from Reunion was kind enough to meet with a few IPI colleagues and friends of IPI to present an overview of what Reunion has to offer and answer questions. He provided comprehensive PDFs with detailed information about the retreat space and pricing.
+          Haamid was kind enough to meet with a few IPI colleagues and friends of IPI to present an overview of what Reunion has to offer and answer questions. He sent us comprehensive PDFs with detailed information about the retreat space and pricing.
         </p>
 
         <h2 className="text-lg md:text-xl font-bold text-amber-900 mt-6 mb-2">What You'll Find Here</h2>
         <p className="text-sm md:text-base text-amber-900 leading-snug max-w-4xl mx-auto">
-          Below you'll find a private, edited YouTube video of our very informative Zoom session with Haamid, along with the PDFs he supplied and additional information about Reunion and hosting a retreat there.
+          Below you'll find an edited YouTube video of our very informative Zoom session with Haamid, along with the PDFs he supplied and additional information about Reunion and hosting a retreat there.
         </p>
 
         <h2 className="text-lg md:text-xl font-bold text-amber-900 mt-6 mb-2">Want to Talk?</h2>
         <p className="text-sm md:text-base text-amber-900 leading-snug max-w-4xl mx-auto">
-          If you have questions about safety practices at Reunion and ethical considerations for hosting a retreat as they relate to my own personal experiences there, I'm happy to connect. Feel free to reach out at: <a href="mailto:retreats@robromano.com" className="underline hover:text-amber-950 font-bold">retreats@robromano.com</a> or <a href="https://schedule.robromano.com" target="_blank" rel="noopener noreferrer" className="underline hover:text-amber-950 font-bold">schedule a brief call</a> <span className="font-bold">(select "Retreat Prospect (20 min)"</span>. As a healthcare provider, I understand that safety and ethical practice are non-negotiable—and I'm here to share my own experience. I'm also happy to introduce you to other IPI colleagues exploring Reunion as a retreat venue and help get initial conversations going—though this won't be a long-term role.
+          If you have questions about safety practices at Reunion and ethical considerations for hosting a retreat as they relate to my own personal experiences there, I am happy to connect. Feel free to reach out at: <a href="mailto:retreats@robromano.com" className="underline hover:text-amber-950 font-bold">retreats@robromano.com</a> or <a href="https://schedule.robromano.com" target="_blank" rel="noopener noreferrer" className="underline hover:text-amber-950 font-bold">schedule a brief call</a> <span className="font-bold">(select "Retreat Prospect (20 min)"</span>. As a healthcare provider, I understand that safety and ethical practice are non-negotiable—and I'm here to share my own experience. I'm also happy to introduce you to other IPI colleagues exploring Reunion as a retreat venue and help get initial conversations going—though this won't be a long-term role.
         </p>
 
         <h2 className="text-lg md:text-xl font-bold text-amber-900 mt-6 mb-2">For Official Reunion Information</h2>
         <p className="text-sm md:text-base text-amber-900 leading-snug max-w-4xl mx-auto">
           For all official Reunion information, questions about hosting, pricing, and bookings, please contact Haamid directly (Haamid is the formal authority on all offerings Reunion related):
         </p>
-        <div className="mt-3 text-sm md:text-base text-amber-900 font-semibold leading-snug">
+        <div className="mt-3 text-sm md:text-base text-amber-900 font-semibold leading-relaxed space-y-0">
           <p className="font-bold">HAAMID DASH</p>
           <p>Director of Enrollment</p>
           <p>Phone: <a href="tel:+18883285317" className="underline hover:text-amber-950">+1 888-328-5317 x 100</a></p>
