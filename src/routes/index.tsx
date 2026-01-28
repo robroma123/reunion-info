@@ -139,7 +139,7 @@ function ReunionPage() {
           <div className="text-center mb-10">
             <span className="inline-block bg-amber-400 text-gray-900 text-sm font-bold uppercase tracking-wider px-4 py-2 rounded-full mb-6">Featured Video</span>
             <h2 className="text-3xl md:text-5xl font-light text-white mb-6">Hear Directly from Haamid</h2>
-            <p className="text-lg md:text-xl text-gray-200 max-w-3xl mx-auto leading-relaxed">Watch this Q&A session where colleagues discuss their questions about hosting retreats at Reunion with Director of Enrollment, Haamid Dash. This video answers many of the most common questions potential retreat hosts have.</p>
+            <p className="text-lg md:text-xl text-gray-200 max-w-3xl mx-auto leading-relaxed">Watch this Q&A session where Haamid discusses how Reunion provides dedicated coordination support, all-inclusive pricing with world-class amenities, and a professionally managed environment—so you can focus on leading your retreat while your guests have an experience they'll remember.</p>
           </div>
           <div className="relative">
             <div className="absolute -inset-4 bg-amber-400/20 rounded-2xl blur-xl"></div>
