@@ -75,7 +75,7 @@ function ReunionPage() {
       </button>
 
       {/* Disclaimer Banner */}
-      <div id="ipi-friends" className="bg-amber-100 border-b-2 border-amber-300 px-5 pt-16 pb-3 text-center">
+      <div id="ipi-friends" className="bg-amber-100 border-b-2 border-amber-300 px-5 pt-20 pb-3 text-center scroll-mt-14">
         <p className="text-sm md:text-base text-amber-900 leading-snug max-w-4xl mx-auto">
           <span className="font-bold">Please Note:</span> This is <span className="font-bold uppercase">NOT</span> an official Reunion website, nor am I representing, affiliated with, or endorsing Reunion or IPI in any formal capacity. This resource was created by an IPI graduate who is also a former Reunion Retreat Guest.
         </p>
