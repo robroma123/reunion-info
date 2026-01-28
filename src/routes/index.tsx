@@ -5,6 +5,12 @@ import { MapPin, Users, Star, Calendar, Bed, UtensilsCrossed, Dumbbell, Mail, Ph
 function ReunionPage() {
   const [openFaq, setOpenFaq] = useState<number | null>(null)
   const [scrollY, setScrollY] = useState(0)
+  const [isTouchDevice, setIsTouchDevice] = useState(false)
+
+  // Detect touch device (phones, tablets) vs non-touch (laptops, desktops)
+  useEffect(() => {
+    setIsTouchDevice('ontouchstart' in window || navigator.maxTouchPoints > 0)
+  }, [])
 
   useEffect(() => {
     const handleScroll = () => setScrollY(window.scrollY)
@@ -209,62 +215,68 @@ function ReunionPage() {
             <div className="bg-white rounded-lg shadow-lg overflow-hidden">
               <div className="p-4 bg-[#2d6a6a] text-white flex items-center justify-between">
                 <h3 className="text-lg font-medium">Reunion Presentation - Part 1</h3>
-                {/* Desktop: Download button */}
-                <a href="/reunion_1_2.pdf" download className="hidden xl:inline-block text-sm bg-amber-400 text-gray-900 px-4 py-2 rounded hover:bg-amber-300 transition-colors">Download PDF</a>
-                {/* Mobile/Tablet: Tap to view button */}
-                <a href="/reunion_1_2.pdf" target="_blank" rel="noopener noreferrer" className="xl:hidden inline-flex items-center gap-1 text-sm bg-amber-400 text-gray-900 px-4 py-2 rounded hover:bg-amber-300 transition-colors">
-                  Tap to View
-                  <ExternalLink className="w-4 h-4" />
-                </a>
+                {isTouchDevice ? (
+                  <a href="/reunion_1_2.pdf" target="_blank" rel="noopener noreferrer" className="inline-flex items-center gap-1 text-sm bg-amber-400 text-gray-900 px-4 py-2 rounded hover:bg-amber-300 transition-colors">
+                    Tap to View
+                    <ExternalLink className="w-4 h-4" />
+                  </a>
+                ) : (
+                  <a href="/reunion_1_2.pdf" download className="text-sm bg-amber-400 text-gray-900 px-4 py-2 rounded hover:bg-amber-300 transition-colors">Download PDF</a>
+                )}
               </div>
-              {/* Desktop: iframe */}
-              <div className="hidden xl:block aspect-[4/3] w-full">
-                <iframe src="/reunion_1_2.pdf" width="100%" height="100%" title="Reunion Presentation Part 1" className="w-full h-full border-0"></iframe>
-              </div>
-              {/* Mobile/Tablet: preview image */}
-              <div className="xl:hidden aspect-[4/3] w-full">
-                <img src="/reunion_1_preview.jpg" alt="Reunion Presentation Part 1 Preview" className="w-full h-full object-cover" />
-              </div>
+              {isTouchDevice ? (
+                <div className="aspect-[4/3] w-full">
+                  <img src="/reunion_1_preview.jpg" alt="Reunion Presentation Part 1 Preview" className="w-full h-full object-cover" />
+                </div>
+              ) : (
+                <div className="aspect-[4/3] w-full">
+                  <iframe src="/reunion_1_2.pdf" width="100%" height="100%" title="Reunion Presentation Part 1" className="w-full h-full border-0"></iframe>
+                </div>
+              )}
             </div>
             <div className="bg-white rounded-lg shadow-lg overflow-hidden">
               <div className="p-4 bg-[#2d6a6a] text-white flex items-center justify-between">
                 <h3 className="text-lg font-medium">Reunion Presentation - Part 2</h3>
-                {/* Desktop: Download button */}
-                <a href="/reunion_2_2.pdf" download className="hidden xl:inline-block text-sm bg-amber-400 text-gray-900 px-4 py-2 rounded hover:bg-amber-300 transition-colors">Download PDF</a>
-                {/* Mobile/Tablet: Tap to view button */}
-                <a href="/reunion_2_2.pdf" target="_blank" rel="noopener noreferrer" className="xl:hidden inline-flex items-center gap-1 text-sm bg-amber-400 text-gray-900 px-4 py-2 rounded hover:bg-amber-300 transition-colors">
-                  Tap to View
-                  <ExternalLink className="w-4 h-4" />
-                </a>
+                {isTouchDevice ? (
+                  <a href="/reunion_2_2.pdf" target="_blank" rel="noopener noreferrer" className="inline-flex items-center gap-1 text-sm bg-amber-400 text-gray-900 px-4 py-2 rounded hover:bg-amber-300 transition-colors">
+                    Tap to View
+                    <ExternalLink className="w-4 h-4" />
+                  </a>
+                ) : (
+                  <a href="/reunion_2_2.pdf" download className="text-sm bg-amber-400 text-gray-900 px-4 py-2 rounded hover:bg-amber-300 transition-colors">Download PDF</a>
+                )}
               </div>
-              {/* Desktop: iframe */}
-              <div className="hidden xl:block aspect-[4/3] w-full">
-                <iframe src="/reunion_2_2.pdf" width="100%" height="100%" title="Reunion Presentation Part 2" className="w-full h-full border-0"></iframe>
-              </div>
-              {/* Mobile/Tablet: preview image */}
-              <div className="xl:hidden aspect-[4/3] w-full">
-                <img src="/reunion_2_preview.jpg" alt="Reunion Presentation Part 2 Preview" className="w-full h-full object-cover" />
-              </div>
+              {isTouchDevice ? (
+                <div className="aspect-[4/3] w-full">
+                  <img src="/reunion_2_preview.jpg" alt="Reunion Presentation Part 2 Preview" className="w-full h-full object-cover" />
+                </div>
+              ) : (
+                <div className="aspect-[4/3] w-full">
+                  <iframe src="/reunion_2_2.pdf" width="100%" height="100%" title="Reunion Presentation Part 2" className="w-full h-full border-0"></iframe>
+                </div>
+              )}
             </div>
             <div className="bg-white rounded-lg shadow-lg overflow-hidden">
               <div className="p-4 bg-[#2d6a6a] text-white flex items-center justify-between">
                 <h3 className="text-lg font-medium">Reunion Pricing Information</h3>
-                {/* Desktop: Download button */}
-                <a href="/reunion_pricing.pdf" download className="hidden xl:inline-block text-sm bg-amber-400 text-gray-900 px-4 py-2 rounded hover:bg-amber-300 transition-colors">Download PDF</a>
-                {/* Mobile/Tablet: Tap to view button */}
-                <a href="/reunion_pricing.pdf" target="_blank" rel="noopener noreferrer" className="xl:hidden inline-flex items-center gap-1 text-sm bg-amber-400 text-gray-900 px-4 py-2 rounded hover:bg-amber-300 transition-colors">
-                  Tap to View
-                  <ExternalLink className="w-4 h-4" />
-                </a>
+                {isTouchDevice ? (
+                  <a href="/reunion_pricing.pdf" target="_blank" rel="noopener noreferrer" className="inline-flex items-center gap-1 text-sm bg-amber-400 text-gray-900 px-4 py-2 rounded hover:bg-amber-300 transition-colors">
+                    Tap to View
+                    <ExternalLink className="w-4 h-4" />
+                  </a>
+                ) : (
+                  <a href="/reunion_pricing.pdf" download className="text-sm bg-amber-400 text-gray-900 px-4 py-2 rounded hover:bg-amber-300 transition-colors">Download PDF</a>
+                )}
               </div>
-              {/* Desktop: iframe */}
-              <div className="hidden xl:block aspect-[4/3] w-full">
-                <iframe src="/reunion_pricing.pdf" width="100%" height="100%" title="Reunion Pricing Information" className="w-full h-full border-0"></iframe>
-              </div>
-              {/* Mobile/Tablet: preview image */}
-              <div className="xl:hidden aspect-[4/3] w-full">
-                <img src="/reunion_pricing_preview.jpg" alt="Reunion Pricing Information Preview" className="w-full h-full object-cover" />
-              </div>
+              {isTouchDevice ? (
+                <div className="aspect-[4/3] w-full">
+                  <img src="/reunion_pricing_preview.jpg" alt="Reunion Pricing Information Preview" className="w-full h-full object-cover" />
+                </div>
+              ) : (
+                <div className="aspect-[4/3] w-full">
+                  <iframe src="/reunion_pricing.pdf" width="100%" height="100%" title="Reunion Pricing Information" className="w-full h-full border-0"></iframe>
+                </div>
+              )}
             </div>
 
             {/* External Resource Links */}
