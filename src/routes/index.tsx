@@ -95,7 +95,7 @@ function ReunionPage() {
 
         <h2 className="text-xl md:text-2xl font-bold text-amber-900 mt-6 mb-2">About This Page</h2>
         <p className="text-base md:text-lg text-amber-900 leading-snug max-w-4xl mx-auto">
-          My name is Robert Romano. I'm a licensed healthcare provider and IPI graduate who attended a plant medicine retreat at Reunion in February 2024—an experience that genuinely transformed my life. I've been discussing this venue with IPI graduates and friends of IPI for the past two years. When Haamid (Reunion's Director of Enrollment) met with a few of us to present what Reunion offers and share detailed PDFs about the retreat space and pricing, several colleagues asked me to make these materials more accessible. So I created this space.
+          My name is Robert Romano. I'm a licensed healthcare provider and IPI graduate who attended a plant medicine retreat at Reunion in February 2024—an experience that genuinely transformed my life. I've been discussing this venue with IPI graduates and friends of IPI for the past two years. When Haamid (Reunion's Director of Enrollment) met with a few of us to present what Reunion offers and share detailed PDFs about the retreat space and pricing, several colleagues asked me to make these materials available. I created this space.
         </p>
 
         <h2 className="text-xl md:text-2xl font-bold text-amber-900 mt-6 mb-2">What You'll Find Here</h2>
@@ -108,7 +108,7 @@ function ReunionPage() {
           Happy to share my personal Reunion experience if it will help you in your decision-making process. I'm available for a conversation at: <a href="mailto:retreats@robromano.com" className="underline hover:text-amber-950">retreats@robromano.com</a> or <a href="https://schedule.robromano.com" target="_blank" rel="noopener noreferrer" className="underline hover:text-amber-950">schedule a brief call</a> (select Retreat Prospect - 20 min).
         </p>
         <p className="text-base md:text-lg text-amber-900 leading-snug max-w-4xl mx-auto mt-2">
-          As a healthcare provider, I understand that safety and ethical practice are non-negotiable—and I'm here to share my own experience. I'm also happy to introduce you to other IPI colleagues exploring Reunion as a retreat venue and help get initial conversations going—though this won't be a long-term role.
+          As a healthcare provider, I understand that safety and ethical practice are non-negotiable—and I'm here to share my own experience. I'm also happy to introduce you to other IPI colleagues, and friends of IPI, who are exploring Reunion as a retreat venue and help get initial conversations going—though this won't be a long-term role.
         </p>
 
         <h2 className="text-xl md:text-2xl font-bold text-amber-900 mt-6 mb-2">For Official Reunion Information</h2>
@@ -134,7 +134,7 @@ function ReunionPage() {
           <div className="text-center mb-10">
             <span className="inline-block bg-amber-400 text-gray-900 text-sm font-bold uppercase tracking-wider px-4 py-2 rounded-full mb-6">Featured Video</span>
             <h2 className="text-3xl md:text-5xl font-light text-white mb-6">Hear Directly from Haamid</h2>
-            <p className="text-lg md:text-xl text-gray-200 max-w-3xl mx-auto leading-relaxed">Watch this Q&A session where Haamid discusses how Reunion provides dedicated coordination support, all-inclusive pricing with world-class amenities, and a professionally managed environment—so you can focus on leading your retreat while your guests have an experience they'll remember.</p>
+            <p className="text-lg md:text-xl text-gray-200 max-w-3xl mx-auto leading-relaxed">Watch this Q&A session where Haamid discusses how Reunion provides <span className="font-bold">dedicated coordination support</span>, <span className="font-bold">all-inclusive pricing with world-class amenities</span>, and a <span className="font-bold">professionally managed environment</span>—so you can <span className="font-bold">focus on leading your retreat</span> while your guests have an <span className="font-bold">experience they'll remember</span>.</p>
           </div>
           <div className="relative">
             <div className="absolute -inset-4 bg-amber-400/20 rounded-2xl blur-xl"></div>
