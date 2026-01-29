@@ -12,11 +12,9 @@ function ReunionPage() {
     return () => window.removeEventListener('scroll', handleScroll)
   }, [])
 
-  // Auto-scroll to "Please Note:" for visitors from retreats.robromano.com
+  // Ensure page loads at top for all visitors
   useEffect(() => {
-    if (window.location.hostname === 'retreats.robromano.com') {
-      document.getElementById('ipi-friends')?.scrollIntoView()
-    }
+    window.scrollTo(0, 0)
   }, [])
 
   const showBackToTop = scrollY > 400
@@ -135,6 +133,10 @@ function ReunionPage() {
             <span className="inline-block bg-amber-400 text-gray-900 text-sm font-bold uppercase tracking-wider px-4 py-2 rounded-full mb-6">Featured Video</span>
             <h2 className="text-3xl md:text-5xl font-light text-white mb-6">Hear Directly from Haamid</h2>
             <p className="text-lg md:text-xl text-gray-200 max-w-3xl mx-auto leading-relaxed">Watch this Q&A session where Haamid discusses how Reunion provides <span className="font-bold">dedicated coordination support</span>, <span className="font-bold">all-inclusive pricing with world-class amenities</span>, and a <span className="font-bold">professionally managed environment</span>—so you can <span className="font-bold">focus on leading your retreat</span> while your guests have an <span className="font-bold">experience they'll remember</span>.</p>
+            <a href="https://www.youtube.com/watch?v=FIcR_tAMt0M" target="_blank" rel="noopener noreferrer" className="inline-flex items-center gap-2 text-amber-300 hover:text-amber-200 text-sm mt-4">
+              <Play className="w-4 h-4" />
+              Having trouble viewing? Watch directly on YouTube
+            </a>
           </div>
           <div className="relative overflow-hidden">
             <div className="absolute -inset-4 bg-amber-400/20 rounded-2xl blur-xl"></div>
