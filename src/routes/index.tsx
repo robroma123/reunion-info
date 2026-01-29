@@ -170,8 +170,8 @@ function ReunionPage() {
         <div className="relative z-10 text-center px-6 max-w-4xl mx-auto">
           <p className="text-teal-300 text-sm md:text-base uppercase tracking-[0.3em] mb-4 font-medium">Reunion Wellness Resort & Retreats</p>
           <h1 className="text-4xl md:text-6xl lg:text-7xl font-light text-white mb-6 leading-tight">Host With Confidence</h1>
-          <p className="text-xl md:text-2xl text-gray-200 mb-4 font-light">Sugar Beach, Costa Rica  •  Blue Zone Location</p>
-          <p className="text-lg text-gray-300 mb-10 max-w-2xl mx-auto">An adults-only oceanfront wellness resort and retreat center designed for rest, clarity, and genuine renewal.</p>
+          <p className="text-2xl md:text-3xl text-white mb-4 font-bold">Sugar Beach, Costa Rica  •  Blue Zone Location</p>
+          <p className="text-xl md:text-2xl text-gray-100 mb-10 max-w-2xl mx-auto font-medium">An adults-only oceanfront wellness resort and retreat center designed for rest, clarity, and genuine renewal.</p>
           <a href="#learn-more" className="inline-block bg-[#2d6a6a] hover:bg-[#245757] text-white px-10 py-4 rounded-sm text-lg font-medium transition-all duration-300 tracking-wide">Learn More</a>
         </div>
         <div className="absolute bottom-8 left-1/2 -translate-x-1/2 animate-bounce">
@@ -210,7 +210,7 @@ function ReunionPage() {
       {/* About Section */}
       <section className="py-24 px-6 bg-[#f5f3ef]">
         <div className="max-w-4xl mx-auto text-center">
-          <h2 className="text-3xl md:text-4xl font-light text-gray-800 mb-8">A Setting That Elevates Your Experience</h2>
+          <h2 className="text-3xl md:text-4xl font-bold text-gray-800 mb-8">A Setting That Elevates Your Experience</h2>
           <p className="text-lg text-gray-600 leading-relaxed mb-6">Reunion is committed to providing a well-supported, professionally managed environment so you can focus fully on the work you're here to lead. Combined with your programming, this creates an experience guests will remember — and want to return to.</p>
           <p className="text-lg text-gray-600 leading-relaxed">Located in Costa Rica's Blue Zone, this private, gated, adults-only resort offers world-class wellness amenities, farm-to-table dining, and dedicated coordination support for retreats of all types.</p>
         </div>
@@ -292,7 +292,7 @@ function ReunionPage() {
       {/* Accommodations Section */}
       <section className="py-24 px-6 bg-white">
         <div className="max-w-6xl mx-auto">
-          <h2 className="text-3xl md:text-4xl font-light text-center text-gray-800 mb-4">Accommodations</h2>
+          <h2 className="text-3xl md:text-4xl font-bold text-center text-gray-800 mb-4">Accommodations</h2>
           <p className="text-center text-gray-600 mb-12">37 rooms plus a 3-bedroom oceanfront villa — all with modern amenities</p>
           <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-6">
             <div className="bg-[#f5f3ef] p-6 rounded-sm">
@@ -374,7 +374,7 @@ function ReunionPage() {
       {/* Pricing Section */}
       <section id="pricing" className="py-24 px-6 bg-white scroll-mt-14">
         <div className="max-w-4xl mx-auto">
-          <h2 className="text-3xl md:text-4xl font-light text-center text-gray-800 mb-6">All-Inclusive Pricing</h2>
+          <h2 className="text-3xl md:text-4xl font-bold text-center text-gray-800 mb-6">All-Inclusive Pricing</h2>
           <p className="text-center text-gray-600 mb-12 max-w-2xl mx-auto">Simple, transparent pricing with everything included. Minimum 4 nights required.</p>
           <div className="grid md:grid-cols-2 gap-8 mb-12">
             <div className="bg-[#f5f3ef] p-8 rounded-sm">
@@ -430,7 +430,7 @@ function ReunionPage() {
       {/* Retreat Types Section */}
       <section className="py-24 px-6 bg-[#f5f3ef]">
         <div className="max-w-4xl mx-auto">
-          <h2 className="text-3xl md:text-4xl font-light text-center text-gray-800 mb-12">Retreats That Thrive at Reunion</h2>
+          <h2 className="text-3xl md:text-4xl font-bold text-center text-gray-800 mb-12">Retreats That Thrive at Reunion</h2>
           <div className="grid grid-cols-2 md:grid-cols-3 gap-4">
             <div className="bg-white p-6 rounded-sm text-center shadow-sm"><span className="text-gray-700">Yoga & Meditation</span></div>
             <div className="bg-white p-6 rounded-sm text-center shadow-sm"><span className="text-gray-700">Training & Workshops</span></div>
@@ -445,7 +445,7 @@ function ReunionPage() {
       {/* FAQ Section */}
       <section id="faq" className="py-24 px-6 bg-white scroll-mt-14">
         <div className="max-w-3xl mx-auto">
-          <h2 className="text-3xl md:text-4xl font-light text-center text-gray-800 mb-16">Frequently Asked Questions</h2>
+          <h2 className="text-3xl md:text-4xl font-bold text-center text-gray-800 mb-16">Frequently Asked Questions</h2>
           <div className="space-y-4">
             {faqs.map((faq, index) => (
               <div key={index} className="bg-[#f5f3ef] rounded-sm overflow-hidden shadow-sm">
