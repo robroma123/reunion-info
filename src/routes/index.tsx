@@ -235,8 +235,8 @@ function ReunionPage() {
                   <ExternalLink className="w-4 h-4" />
                 </a>
               </div>
-              <div className="aspect-[4/3] w-full">
-                <img src="/reunion_1_preview.jpg" alt="Reunion Presentation Part 1 Preview" className="w-full h-full object-cover" />
+              <div className="w-full">
+                <img src="/reunion_1_preview.jpg" alt="Reunion Presentation Part 1 Preview" className="w-full h-auto" />
               </div>
             </div>
             <div className="bg-white rounded-lg shadow-lg overflow-hidden">
@@ -247,8 +247,8 @@ function ReunionPage() {
                   <ExternalLink className="w-4 h-4" />
                 </a>
               </div>
-              <div className="aspect-[4/3] w-full">
-                <img src="/reunion_2_preview.jpg" alt="Reunion Presentation Part 2 Preview" className="w-full h-full object-cover" />
+              <div className="w-full">
+                <img src="/reunion_2_preview.jpg" alt="Reunion Presentation Part 2 Preview" className="w-full h-auto" />
               </div>
             </div>
             <div className="bg-white rounded-lg shadow-lg overflow-hidden">
@@ -259,8 +259,8 @@ function ReunionPage() {
                   <ExternalLink className="w-4 h-4" />
                 </a>
               </div>
-              <div className="aspect-[4/3] w-full">
-                <img src="/reunion_pricing_preview.jpg" alt="Reunion Pricing Information Preview" className="w-full h-full object-cover" />
+              <div className="w-full">
+                <img src="/reunion_pricing_preview.jpg" alt="Reunion Pricing Information Preview" className="w-full h-auto" />
               </div>
             </div>
 
