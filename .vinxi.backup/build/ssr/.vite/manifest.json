@@ -1,0 +1,40 @@
+{
+  "/Users/robroma123/Reunion/netlify_repo/reunioncr/src/styles.css": {
+    "file": "assets/styles-Bt20VoRL.css",
+    "src": "/Users/robroma123/Reunion/netlify_repo/reunioncr/src/styles.css"
+  },
+  "src/routes/index.backup.tsx?tsr-split=component": {
+    "file": "assets/index.backup-C_x4lLlN.js",
+    "name": "index.backup",
+    "src": "src/routes/index.backup.tsx?tsr-split=component",
+    "isDynamicEntry": true,
+    "imports": [
+      "virtual:$vinxi/handler/ssr"
+    ]
+  },
+  "src/routes/index.tsx?tsr-split=component": {
+    "file": "assets/index-v2oJWCHM.js",
+    "name": "index",
+    "src": "src/routes/index.tsx?tsr-split=component",
+    "isDynamicEntry": true,
+    "imports": [
+      "virtual:$vinxi/handler/ssr"
+    ]
+  },
+  "virtual:$vinxi/handler/ssr": {
+    "file": "ssr.js",
+    "name": "ssr",
+    "src": "virtual:$vinxi/handler/ssr",
+    "isEntry": true,
+    "dynamicImports": [
+      "src/routes/index.tsx?tsr-split=component",
+      "src/routes/index.backup.tsx?tsr-split=component"
+    ],
+    "css": [
+      "assets/styles-Bt20VoRL.css"
+    ],
+    "assets": [
+      "assets/styles-Bt20VoRL.css"
+    ]
+  }
+}
