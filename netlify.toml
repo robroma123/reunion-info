@@ -1,6 +1,35 @@
-[template.environment]
-ANTHROPIC_API_KEY = "Add your Anthropic API key here"
-
 [build]
 command = "npm run build"
 publish = "dist"
+
+# Cache HTML pages on Netlify's edge for fast loading
+[[headers]]
+  for = "/*"
+  [headers.values]
+    Cache-Control = "public, max-age=300, s-maxage=3600, stale-while-revalidate=86400"
+
+# Cache static assets (images, PDFs, etc.) for 1 year
+[[headers]]
+  for = "/*.pdf"
+  [headers.values]
+    Cache-Control = "public, max-age=31536000, immutable"
+
+[[headers]]
+  for = "/*.jpg"
+  [headers.values]
+    Cache-Control = "public, max-age=31536000, immutable"
+
+[[headers]]
+  for = "/*.png"
+  [headers.values]
+    Cache-Control = "public, max-age=31536000, immutable"
+
+[[headers]]
+  for = "/*.svg"
+  [headers.values]
+    Cache-Control = "public, max-age=31536000, immutable"
+
+[[headers]]
+  for = "/*.ico"
+  [headers.values]
+    Cache-Control = "public, max-age=31536000, immutable"
