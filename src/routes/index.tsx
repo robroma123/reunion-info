@@ -86,31 +86,26 @@ function ReunionPage() {
         <h1 id="ipi-friends" className="text-2xl md:text-3xl font-bold text-amber-900 mb-4 scroll-mt-14">IPI and Friends of IPI - Reunion Retreat Resource</h1>
 
         <p className="text-base md:text-lg text-amber-900 leading-snug max-w-4xl mx-auto">
-          <span className="font-bold">Please Note:</span> This is <span className="font-bold uppercase">NOT</span> an official Reunion website, nor am I representing, affiliated with, or endorsing Reunion or IPI in any formal capacity. This resource was created by an IPI graduate and former Reunion Retreat Guest.
+          <span className="font-bold">Please Note:</span> This is <span className="font-bold uppercase">NOT</span> an official Reunion or IPI website, nor is it affiliated with or endorsed by either organization. This resource was independently created by an IPI graduate and former Reunion guest.
         </p>
 
         <p className="text-base md:text-lg text-amber-900 leading-snug max-w-4xl mx-auto mt-2 font-bold">
-          Full Transparency: I receive no financial compensation, kickbacks, or incentives from Reunion, IPI, or anyone else involved with this resource.
+          Disclosure: I have no financial relationships or conflicts of interest to disclose. I receive no compensation, kickbacks, or incentives from Reunion, IPI, or anyone else for this resource.
         </p>
 
         <h2 className="text-xl md:text-2xl font-bold text-amber-900 mt-6 mb-2">About This Page</h2>
         <p className="text-base md:text-lg text-amber-900 leading-snug max-w-4xl mx-auto">
-          My name is Robert Romano. I'm a licensed healthcare provider and IPI graduate who attended a plant medicine retreat at Reunion in February of 2024. After my own profound retreat experience there—which genuinely transformed my life—I've been discussing this venue with other IPI graduates and friends of IPI for the past two years. Several colleagues asked me to share the materials Haamid, the Reunion Director of Enrollment, provided and so I created this space.
-        </p>
-
-        <h2 className="text-xl md:text-2xl font-bold text-amber-900 mt-6 mb-2">Why This Resource Exists</h2>
-        <p className="text-base md:text-lg text-amber-900 leading-snug max-w-4xl mx-auto">
-          Haamid was kind enough to meet with a few IPI colleagues and friends of IPI to present an overview of what Reunion has to offer and answer questions. He sent us comprehensive PDFs with detailed information about the retreat space and pricing.
+          My name is Robert Romano. I'm a licensed healthcare provider and IPI graduate who attended a plant medicine retreat at Reunion in February 2024—an experience that genuinely transformed my life. I've been discussing this venue with IPI graduates and friends of IPI for the past two years. When Haamid (Reunion's Director of Enrollment) met with a few of us to present what Reunion offers and share detailed PDFs about the retreat space and pricing, several colleagues asked me to make these materials more accessible. So I created this space.
         </p>
 
         <h2 className="text-xl md:text-2xl font-bold text-amber-900 mt-6 mb-2">What You'll Find Here</h2>
         <p className="text-base md:text-lg text-amber-900 leading-snug max-w-4xl mx-auto">
-          Below you'll find an edited YouTube video of our very informative Zoom session with Haamid, along with the PDFs he supplied and additional information about Reunion and hosting a retreat there.
+          Below you'll find an edited YouTube video of our Zoom session with Haamid, along with the PDF presentations he supplied. I've also included a link to Reunion's media folder with photos and videos you can use for your own marketing materials. I encourage you to check out the Reunion YouTube channel as well—both are linked below.
         </p>
 
         <h2 className="text-xl md:text-2xl font-bold text-amber-900 mt-6 mb-2">Want to Talk?</h2>
         <p className="text-base md:text-lg text-amber-900 leading-snug max-w-4xl mx-auto font-bold">
-          Happy to share my personal Reunion experience if it will help you in your decision-making process. I'm available for a conversation at: <a href="mailto:retreats@robromano.com" className="underline hover:text-amber-950">retreats@robromano.com</a> or <a href="https://schedule.robromano.com" target="_blank" rel="noopener noreferrer" className="underline hover:text-amber-950">schedule a brief call</a> (select Retreat Prospect (20 min).
+          Happy to share my personal Reunion experience if it will help you in your decision-making process. I'm available for a conversation at: <a href="mailto:retreats@robromano.com" className="underline hover:text-amber-950">retreats@robromano.com</a> or <a href="https://schedule.robromano.com" target="_blank" rel="noopener noreferrer" className="underline hover:text-amber-950">schedule a brief call</a> (select Retreat Prospect - 20 min).
         </p>
         <p className="text-base md:text-lg text-amber-900 leading-snug max-w-4xl mx-auto mt-2">
           As a healthcare provider, I understand that safety and ethical practice are non-negotiable—and I'm here to share my own experience. I'm also happy to introduce you to other IPI colleagues exploring Reunion as a retreat venue and help get initial conversations going—though this won't be a long-term role.
@@ -118,7 +113,7 @@ function ReunionPage() {
 
         <h2 className="text-xl md:text-2xl font-bold text-amber-900 mt-6 mb-2">For Official Reunion Information</h2>
         <p className="text-base md:text-lg text-amber-900 leading-snug max-w-4xl mx-auto">
-          For all official Reunion information, questions about hosting, pricing, safety and bookings, please contact Haamid directly (Haamid is the formal authority on all offerings Reunion related):
+          For questions about hosting, pricing, safety, and bookings, contact Haamid directly:
         </p>
         <div className="mt-3 text-base md:text-lg text-amber-900 font-semibold leading-relaxed space-y-0">
           <p className="font-bold">HAAMID DASH</p>
