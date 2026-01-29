@@ -25,12 +25,28 @@ export const Route = createRootRoute({
         content: 'Reunion Costa Rica | Retreat Hosting Information',
       },
       {
+        property: 'og:description',
+        content: 'An independent resource for IPI graduates and friends exploring retreat hosting at Reunion Wellness Resort, Sugar Beach, Costa Rica.',
+      },
+      {
         property: 'og:image',
-        content: 'https://reunioncr.com/reunion2.jpg',
+        content: 'https://retreats.robromano.com/reunion_preview_tight.jpg',
+      },
+      {
+        property: 'og:url',
+        content: 'https://retreats.robromano.com/',
       },
       {
         property: 'og:type',
         content: 'website',
+      },
+      {
+        name: 'twitter:card',
+        content: 'summary_large_image',
+      },
+      {
+        name: 'twitter:image',
+        content: 'https://retreats.robromano.com/reunion_preview_tight.jpg',
       },
     ],
     links: [
