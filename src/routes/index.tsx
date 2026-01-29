@@ -53,7 +53,7 @@ function ReunionPage() {
   ]
 
   return (
-    <div className="min-h-screen bg-[#f5f3ef] text-gray-800">
+    <div className="min-h-screen bg-[#f5f3ef] text-gray-800 overflow-x-hidden">
       {/* Fixed Navigation */}
       <nav className="fixed top-0 left-0 right-0 z-50">
         <div className="bg-[#2d6a6a]/95 backdrop-blur-sm shadow-md">
@@ -136,7 +136,7 @@ function ReunionPage() {
             <h2 className="text-3xl md:text-5xl font-light text-white mb-6">Hear Directly from Haamid</h2>
             <p className="text-lg md:text-xl text-gray-200 max-w-3xl mx-auto leading-relaxed">Watch this Q&A session where Haamid discusses how Reunion provides <span className="font-bold">dedicated coordination support</span>, <span className="font-bold">all-inclusive pricing with world-class amenities</span>, and a <span className="font-bold">professionally managed environment</span>—so you can <span className="font-bold">focus on leading your retreat</span> while your guests have an <span className="font-bold">experience they'll remember</span>.</p>
           </div>
-          <div className="relative">
+          <div className="relative overflow-hidden">
             <div className="absolute -inset-4 bg-amber-400/20 rounded-2xl blur-xl"></div>
             <div className="relative aspect-video w-full rounded-xl overflow-hidden shadow-2xl border-4 border-amber-400/30">
               <iframe 
