@@ -82,8 +82,8 @@ function ReunionPage() {
       </button>
 
       {/* Disclaimer Banner */}
-      <div className="bg-amber-100 border-b-2 border-amber-300 px-5 pt-20 pb-6 text-center">
-        <h1 id="ipi-friends" className="text-2xl md:text-3xl font-bold text-amber-900 mb-4 scroll-mt-14">IPI / Friends of IPI - Reunion Retreat Resource: From a Graduate Who's Journeyed There</h1>
+      <div id="ipi-friends" className="bg-amber-100 border-b-2 border-amber-300 px-5 pt-20 pb-6 text-center scroll-mt-16">
+        <h1 className="text-2xl md:text-3xl font-bold text-amber-900 mb-4">IPI / Friends of IPI - Reunion Retreat Resource: From a Graduate Who's Journeyed There</h1>
 
         <p className="text-base md:text-lg text-amber-900 leading-snug max-w-4xl mx-auto">
           <span className="font-bold">Please Note:</span> This is <span className="font-bold uppercase">NOT</span> an official Reunion or IPI website, nor is it affiliated with or endorsed by either organization. This resource was independently created by an IPI graduate and former Reunion guest.
@@ -129,7 +129,7 @@ function ReunionPage() {
       </div>
 
       {/* Featured Video Section */}
-      <section id="featured-video" className="py-16 md:py-24 px-6 bg-gradient-to-b from-[#1a4a4a] to-[#2d6a6a] scroll-mt-14">
+      <section id="featured-video" className="py-16 md:py-24 px-6 bg-gradient-to-b from-[#1a4a4a] to-[#2d6a6a] scroll-mt-16">
         <div className="max-w-6xl mx-auto">
           <div className="text-center mb-10">
             <span className="inline-block bg-amber-400 text-gray-900 text-sm font-bold uppercase tracking-wider px-4 py-2 rounded-full mb-6">Featured Video</span>
@@ -217,7 +217,7 @@ function ReunionPage() {
       </section>
 
       {/* Explore Reunion Section */}
-      <section id="explore" className="py-24 px-6 bg-[#f5f3ef] scroll-mt-14">
+      <section id="explore" className="py-24 px-6 bg-[#f5f3ef] scroll-mt-16">
         <div className="max-w-5xl mx-auto">
           <h2 className="text-3xl md:text-4xl font-bold text-center text-gray-800 mb-4">Explore Reunion</h2>
           <p className="text-center text-gray-600 mb-12 max-w-2xl mx-auto">Navigate through the Reunion powerpoint presentations to discover everything Reunion has to offer.</p>
@@ -372,7 +372,7 @@ function ReunionPage() {
       </section>
 
       {/* Pricing Section */}
-      <section id="pricing" className="py-24 px-6 bg-white scroll-mt-14">
+      <section id="pricing" className="py-24 px-6 bg-white scroll-mt-16">
         <div className="max-w-4xl mx-auto">
           <h2 className="text-3xl md:text-4xl font-bold text-center text-gray-800 mb-6">All-Inclusive Pricing</h2>
           <p className="text-center text-gray-600 mb-12 max-w-2xl mx-auto">Simple, transparent pricing with everything included. Minimum 4 nights required.</p>
@@ -443,7 +443,7 @@ function ReunionPage() {
       </section>
 
       {/* FAQ Section */}
-      <section id="faq" className="py-24 px-6 bg-white scroll-mt-14">
+      <section id="faq" className="py-24 px-6 bg-white scroll-mt-16">
         <div className="max-w-3xl mx-auto">
           <h2 className="text-3xl md:text-4xl font-bold text-center text-gray-800 mb-16">Frequently Asked Questions</h2>
           <div className="space-y-4">
@@ -466,7 +466,7 @@ function ReunionPage() {
       </section>
 
       {/* CTA Section */}
-      <section id="contact" className="py-24 px-6 bg-[#2d6a6a] text-white scroll-mt-14">
+      <section id="contact" className="py-24 px-6 bg-[#2d6a6a] text-white scroll-mt-16">
         <div className="max-w-4xl mx-auto text-center">
           <h2 className="text-3xl md:text-4xl font-bold mb-8">Let's Co-Create an Unforgettable Experience!</h2>
           <p className="text-lg text-gray-200 leading-relaxed mb-12 max-w-2xl mx-auto">Ready to learn more about hosting your retreat at Reunion? Contact Haamid and his team to schedule a discovery call or request detailed hosting information.</p>
