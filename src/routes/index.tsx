@@ -83,7 +83,7 @@ function ReunionPage() {
 
       {/* Disclaimer Banner */}
       <div className="bg-amber-100 border-b-2 border-amber-300 px-5 pt-20 pb-6 text-center">
-        <h1 id="ipi-friends" className="text-2xl md:text-3xl font-bold text-amber-900 mb-4 scroll-mt-14">IPI and Friends of IPI - Reunion Retreat Resource</h1>
+        <h1 id="ipi-friends" className="text-2xl md:text-3xl font-bold text-amber-900 mb-4 scroll-mt-14">IPI / Friends of IPI - Reunion Retreat Resource: From a Graduate Who's Journeyed There</h1>
 
         <p className="text-base md:text-lg text-amber-900 leading-snug max-w-4xl mx-auto">
           <span className="font-bold">Please Note:</span> This is <span className="font-bold uppercase">NOT</span> an official Reunion or IPI website, nor is it affiliated with or endorsed by either organization. This resource was independently created by an IPI graduate and former Reunion guest.
