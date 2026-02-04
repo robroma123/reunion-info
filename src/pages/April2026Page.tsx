@@ -441,14 +441,14 @@ export function April2026Page() {
                   </div>
                 </div>
               </div>
-              <p className="text-sm text-gray-600 mt-6 font-bold">Illustrative scenario — final split depends on group size and other factors. This represents a possible minimum p/p only. THIS IS AN ESTIMATE ONLY.</p>
+              <p className="text-sm text-gray-600 mt-6 font-bold">Illustrative scenario — final split depends on group size and other factors. This represents a possible minimum p/p only. <span className="underline">THIS IS AN ESTIMATE ONLY.</span></p>
             </div>
           </div>
 
           {/* What's included vs. not included */}
           <div className="grid md:grid-cols-2 gap-8 max-w-4xl mx-auto">
             <div className="bg-[#2d6a6a]/5 p-6 rounded-sm">
-              <h4 className="font-medium text-[#2d6a6a] mb-3">Included in your rate</h4>
+              <h4 className="font-bold text-[#2d6a6a] mb-3">Included in your rate</h4>
               <ul className="text-gray-700 text-sm space-y-2">
                 <li>• All meals (breakfast, lunch, dinner)</li>
                 <li>• Accommodations for 5 nights</li>
@@ -461,7 +461,7 @@ export function April2026Page() {
               </ul>
             </div>
             <div className="bg-gray-50 p-6 rounded-sm">
-              <h4 className="font-medium text-gray-700 mb-3">Not included</h4>
+              <h4 className="font-bold text-gray-700 mb-3">Not included</h4>
               <ul className="text-gray-700 text-sm space-y-2">
                 <li>• Flights to Liberia International Airport (LIR)</li>
                 <li>• Airport transfers / ground transportation</li>
