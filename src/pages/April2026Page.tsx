@@ -388,7 +388,7 @@ export function April2026Page() {
           <div className="grid md:grid-cols-2 gap-8 max-w-4xl mx-auto mb-12">
             {/* Base Rates */}
             <div className="bg-[#f5f3ef] p-8 rounded-sm">
-              <h3 className="text-xl font-bold text-[#2d6a6a] mb-4">REUNION BASE RATES - NO BUYOUT SCENARIO</h3>
+              <h3 className="text-xl font-bold text-[#2d6a6a] mb-4">REUNION BASE RATES - NO BUYOUT SCENARIO <span className="underline">(MOST LIKELY RIGHT NOW)</span></h3>
               <p className="text-sm text-gray-600 mb-6 font-bold">High Season (December–April) • All-Inclusive</p>
               <div className="space-y-3">
                 <div className="flex justify-between">
@@ -411,6 +411,7 @@ export function April2026Page() {
                 </div>
               </div>
               <p className="text-base text-gray-600 mt-6 font-bold">April 13–18, 2026</p>
+              <p className="text-sm text-gray-600 mt-4 font-bold">We are trying to keep the experience affordable, especially given short notice. So, we will try to stay within this pricing framework, but will have a much better idea once we gauge interest. Please let us know!</p>
             </div>
 
             {/* Campus Buyout Scenario */}
