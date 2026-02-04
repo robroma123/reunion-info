@@ -89,7 +89,7 @@ export function April2026Page() {
       {/* Hero Section */}
       <section className="relative min-h-[70vh] flex items-center justify-center overflow-hidden">
         <div className="absolute inset-0 bg-cover bg-center" style={{backgroundImage: 'url(/reunion2.jpg)'}}>
-          <div className="absolute inset-0 bg-gradient-to-b from-black/50 via-black/30 to-black/60"></div>
+          <div className="absolute inset-0 bg-black/20"></div>
         </div>
         <div className="relative z-10 text-center px-6 max-w-4xl mx-auto pt-14 pb-28 md:pt-0 md:pb-0">
           <p className="text-white text-sm sm:text-xl md:text-3xl lg:text-4xl uppercase tracking-[0.08em] sm:tracking-[0.12em] md:tracking-[0.2em] mb-4 font-bold">Reunion Wellness Resort & Retreats</p>
