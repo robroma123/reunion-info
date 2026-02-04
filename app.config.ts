@@ -8,7 +8,7 @@ export default defineConfig({
   server: {
     preset: 'netlify',
     prerender: {
-      routes: ['/'],
+      routes: ['/', '/april2026'],
       crawlLinks: true,
     },
   },

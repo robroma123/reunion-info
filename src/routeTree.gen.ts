@@ -11,34 +11,20 @@
 // Import Routes
 
 import { Route as rootRoute } from './routes/__root'
-import { Route as rootBackupImport } from './routes/__root.backup'
+import { Route as April2026Import } from './routes/april2026'
 import { Route as IndexImport } from './routes/index'
-import { Route as IndexBackup3Import } from './routes/index.backup3'
-import { Route as IndexBackupImport } from './routes/index.backup'
 
 // Create/Update Routes
 
-const rootBackupRoute = rootBackupImport.update({
-  id: '/__root/backup',
-  path: '/backup',
+const April2026Route = April2026Import.update({
+  id: '/april2026',
+  path: '/april2026',
   getParentRoute: () => rootRoute,
 } as any)
 
 const IndexRoute = IndexImport.update({
   id: '/',
   path: '/',
-  getParentRoute: () => rootRoute,
-} as any)
-
-const IndexBackup3Route = IndexBackup3Import.update({
-  id: '/index/backup3',
-  path: '/index/backup3',
-  getParentRoute: () => rootRoute,
-} as any)
-
-const IndexBackupRoute = IndexBackupImport.update({
-  id: '/index/backup',
-  path: '/index/backup',
   getParentRoute: () => rootRoute,
 } as any)
 
@@ -53,25 +39,11 @@ declare module '@tanstack/react-router' {
       preLoaderRoute: typeof IndexImport
       parentRoute: typeof rootRoute
     }
-    '/__root/backup': {
-      id: '/__root/backup'
-      path: '/backup'
-      fullPath: '/backup'
-      preLoaderRoute: typeof rootBackupImport
-      parentRoute: typeof rootRoute
-    }
-    '/index/backup': {
-      id: '/index/backup'
-      path: '/index/backup'
-      fullPath: '/index/backup'
-      preLoaderRoute: typeof IndexBackupImport
-      parentRoute: typeof rootRoute
-    }
-    '/index/backup3': {
-      id: '/index/backup3'
-      path: '/index/backup3'
-      fullPath: '/index/backup3'
-      preLoaderRoute: typeof IndexBackup3Import
+    '/april2026': {
+      id: '/april2026'
+      path: '/april2026'
+      fullPath: '/april2026'
+      preLoaderRoute: typeof April2026Import
       parentRoute: typeof rootRoute
     }
   }
@@ -81,47 +53,37 @@ declare module '@tanstack/react-router' {
 
 export interface FileRoutesByFullPath {
   '/': typeof IndexRoute
-  '/backup': typeof rootBackupRoute
-  '/index/backup': typeof IndexBackupRoute
-  '/index/backup3': typeof IndexBackup3Route
+  '/april2026': typeof April2026Route
 }
 
 export interface FileRoutesByTo {
   '/': typeof IndexRoute
-  '/backup': typeof rootBackupRoute
-  '/index/backup': typeof IndexBackupRoute
-  '/index/backup3': typeof IndexBackup3Route
+  '/april2026': typeof April2026Route
 }
 
 export interface FileRoutesById {
   __root__: typeof rootRoute
   '/': typeof IndexRoute
-  '/__root/backup': typeof rootBackupRoute
-  '/index/backup': typeof IndexBackupRoute
-  '/index/backup3': typeof IndexBackup3Route
+  '/april2026': typeof April2026Route
 }
 
 export interface FileRouteTypes {
   fileRoutesByFullPath: FileRoutesByFullPath
-  fullPaths: '/' | '/backup' | '/index/backup' | '/index/backup3'
+  fullPaths: '/' | '/april2026'
   fileRoutesByTo: FileRoutesByTo
-  to: '/' | '/backup' | '/index/backup' | '/index/backup3'
-  id: '__root__' | '/' | '/__root/backup' | '/index/backup' | '/index/backup3'
+  to: '/' | '/april2026'
+  id: '__root__' | '/' | '/april2026'
   fileRoutesById: FileRoutesById
 }
 
 export interface RootRouteChildren {
   IndexRoute: typeof IndexRoute
-  rootBackupRoute: typeof rootBackupRoute
-  IndexBackupRoute: typeof IndexBackupRoute
-  IndexBackup3Route: typeof IndexBackup3Route
+  April2026Route: typeof April2026Route
 }
 
 const rootRouteChildren: RootRouteChildren = {
   IndexRoute: IndexRoute,
-  rootBackupRoute: rootBackupRoute,
-  IndexBackupRoute: IndexBackupRoute,
-  IndexBackup3Route: IndexBackup3Route,
+  April2026Route: April2026Route,
 }
 
 export const routeTree = rootRoute
@@ -135,22 +97,14 @@ export const routeTree = rootRoute
       "filePath": "__root.tsx",
       "children": [
         "/",
-        "/__root/backup",
-        "/index/backup",
-        "/index/backup3"
+        "/april2026"
       ]
     },
     "/": {
       "filePath": "index.tsx"
     },
-    "/__root/backup": {
-      "filePath": "__root.backup.tsx"
-    },
-    "/index/backup": {
-      "filePath": "index.backup.tsx"
-    },
-    "/index/backup3": {
-      "filePath": "index.backup3.tsx"
+    "/april2026": {
+      "filePath": "april2026.tsx"
     }
   }
 }
