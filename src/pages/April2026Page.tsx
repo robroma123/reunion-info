@@ -389,7 +389,7 @@ export function April2026Page() {
             {/* Base Rates */}
             <div className="bg-[#f5f3ef] p-8 rounded-sm">
               <h3 className="text-xl font-bold text-[#2d6a6a] mb-4">REUNION BASE RATES - NO BUYOUT SCENARIO</h3>
-              <p className="text-sm text-gray-600 mb-6">High Season (December–April) • All-Inclusive</p>
+              <p className="text-sm text-gray-600 mb-6 font-bold">High Season (December–April) • All-Inclusive</p>
               <div className="space-y-3">
                 <div className="flex justify-between">
                   <span className="text-gray-700">Double Occupancy</span>
@@ -416,7 +416,7 @@ export function April2026Page() {
             {/* Campus Buyout Scenario */}
             <div className="bg-[#f5f3ef] p-8 rounded-sm border-2 border-[#2d6a6a]/20">
               <h3 className="text-xl font-bold text-[#2d6a6a] mb-4">CAMPUS BUYOUT SCENARIO</h3>
-              <p className="text-sm text-gray-600 mb-6">The entire resort, exclusively for our group</p>
+              <p className="text-sm text-gray-600 mb-6 font-bold">The entire resort, exclusively for our group</p>
               <div className="space-y-3">
                 <div className="flex justify-between">
                   <span className="text-gray-700">Buyout rate</span>
