@@ -410,7 +410,7 @@ export function April2026Page() {
                   </div>
                 </div>
               </div>
-              <p className="text-sm text-gray-600 mt-6 font-bold">April 13–18, 2026</p>
+              <p className="text-base text-gray-600 mt-6 font-bold">April 13–18, 2026</p>
             </div>
 
             {/* Campus Buyout Scenario */}
