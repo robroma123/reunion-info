@@ -388,7 +388,7 @@ export function April2026Page() {
           <div className="grid md:grid-cols-2 gap-8 max-w-4xl mx-auto mb-12">
             {/* Base Rates */}
             <div className="bg-[#f5f3ef] p-8 rounded-sm">
-              <h3 className="text-xl font-medium text-[#2d6a6a] mb-4">Reunion Base Rates</h3>
+              <h3 className="text-xl font-bold text-[#2d6a6a] mb-4">REUNION BASE RATES</h3>
               <p className="text-sm text-gray-600 mb-6">High Season (December–April) • All-Inclusive</p>
               <div className="space-y-3">
                 <div className="flex justify-between">
@@ -415,7 +415,7 @@ export function April2026Page() {
 
             {/* Campus Buyout Scenario */}
             <div className="bg-[#f5f3ef] p-8 rounded-sm border-2 border-[#2d6a6a]/20">
-              <h3 className="text-xl font-medium text-[#2d6a6a] mb-4">Campus Buyout Scenario</h3>
+              <h3 className="text-xl font-bold text-[#2d6a6a] mb-4">CAMPUS BUYOUT SCENARIO</h3>
               <p className="text-sm text-gray-600 mb-6">The entire resort, exclusively for our group</p>
               <div className="space-y-3">
                 <div className="flex justify-between">
@@ -426,14 +426,22 @@ export function April2026Page() {
                   <span className="text-gray-700">Full buyout (5 nights)</span>
                   <span className="font-medium text-gray-800">$75,000</span>
                 </div>
-                <div className="border-t border-gray-300 pt-3 mt-3">
+                <div className="border-t border-gray-300 pt-3 mt-3 space-y-2">
                   <div className="flex justify-between">
-                    <span className="text-gray-700">÷ 30 participants</span>
+                    <span className="text-gray-700">~ 30 participants</span>
                     <span className="font-bold text-[#2d6a6a] text-lg">≈ $2,500 each</span>
+                  </div>
+                  <div className="flex justify-between">
+                    <span className="text-gray-700">~ 40 participants</span>
+                    <span className="font-bold text-[#2d6a6a] text-lg">≈ $1,875 each</span>
+                  </div>
+                  <div className="flex justify-between">
+                    <span className="text-gray-700">~ 50 participants</span>
+                    <span className="font-bold text-[#2d6a6a] text-lg">≈ $1,500 each</span>
                   </div>
                 </div>
               </div>
-              <p className="text-sm text-gray-600 mt-6 font-bold">Illustrative scenario — final split depends on group size and other factors. This represents a possible minimum p/p only.</p>
+              <p className="text-sm text-gray-600 mt-6 font-bold">Illustrative scenario — final split depends on group size and other factors. This represents a possible minimum p/p only. THIS IS AN ESTIMATE ONLY.</p>
             </div>
           </div>
 
