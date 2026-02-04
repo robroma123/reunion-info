@@ -67,7 +67,7 @@ function April2026Page() {
       {/* Fixed Navigation */}
       <nav className="fixed top-0 left-0 right-0 z-50">
         <div className="bg-[#2d6a6a]/95 backdrop-blur-sm shadow-md">
-          <div className="max-w-6xl mx-auto px-2 md:px-6 py-3 flex items-center justify-center gap-3 md:gap-5">
+          <div className="max-w-6xl mx-auto px-1 md:px-6 py-3 flex items-center justify-center gap-1.5 md:gap-5">
             <button onClick={() => scrollToSection('about-retreat')} className="text-white/80 hover:text-white text-xs md:text-sm font-medium transition-colors">About</button>
             <button onClick={() => scrollToSection('activities')} className="text-white/80 hover:text-white text-xs md:text-sm font-medium transition-colors">Activities</button>
             <button onClick={() => scrollToSection('venue')} className="text-white/80 hover:text-white text-xs md:text-sm font-medium transition-colors">Venue</button>
@@ -97,11 +97,11 @@ function April2026Page() {
           <div className="absolute inset-0 bg-gradient-to-b from-black/50 via-black/30 to-black/60"></div>
         </div>
         <div className="relative z-10 text-center px-6 max-w-4xl mx-auto">
-          <p className="text-white text-base sm:text-xl md:text-3xl lg:text-4xl uppercase tracking-[0.12em] md:tracking-[0.2em] mb-4 font-bold whitespace-nowrap">Reunion Wellness Resort & Retreats</p>
+          <p className="text-white text-sm sm:text-xl md:text-3xl lg:text-4xl uppercase tracking-[0.08em] sm:tracking-[0.12em] md:tracking-[0.2em] mb-4 font-bold">Reunion Wellness Resort & Retreats</p>
           <h1 className="text-3xl md:text-5xl lg:text-6xl font-normal text-white mb-6 leading-tight">April 13–18, 2026</h1>
-          <p className="text-xl md:text-2xl text-white mb-4 font-bold">Sugar Beach, Costa Rica  •  Blue Zone</p>
-          <p className="text-xl md:text-2xl text-gray-100 mb-4 max-w-2xl mx-auto font-medium">Five days to slow down, reconnect, and just be.</p>
-          <p className="text-lg text-gray-300 max-w-xl mx-auto">An oceanfront gathering for friends, family, and colleagues — no agenda, no pressure, just good people in an extraordinary place.</p>
+          <p className="text-lg md:text-2xl text-white mb-4 font-bold">Sugar Beach, Costa Rica  •  Blue Zone</p>
+          <p className="text-lg md:text-2xl text-gray-100 mb-4 max-w-2xl mx-auto font-medium">Five days to slow down, reconnect, and just be.</p>
+          <p className="text-base md:text-lg text-gray-300 max-w-xl mx-auto px-2">An oceanfront gathering for friends, family, and colleagues — no agenda, no pressure, just good people in an extraordinary place.</p>
         </div>
         <div className="absolute bottom-8 left-1/2 -translate-x-1/2 animate-bounce">
           <button onClick={() => scrollToSection('video')} className="bg-[#2d6a6a] hover:bg-[#1a4a4a] text-white font-medium px-6 py-2 rounded-full flex items-center gap-2 transition-colors shadow-lg">
