@@ -96,7 +96,7 @@ function April2026Page() {
         <div className="absolute inset-0 bg-cover bg-center" style={{backgroundImage: 'url(/reunion2.jpg)'}}>
           <div className="absolute inset-0 bg-gradient-to-b from-black/50 via-black/30 to-black/60"></div>
         </div>
-        <div className="relative z-10 text-center px-6 max-w-4xl mx-auto">
+        <div className="relative z-10 text-center px-6 max-w-4xl mx-auto pb-20 md:pb-0">
           <p className="text-white text-sm sm:text-xl md:text-3xl lg:text-4xl uppercase tracking-[0.08em] sm:tracking-[0.12em] md:tracking-[0.2em] mb-4 font-bold">Reunion Wellness Resort & Retreats</p>
           <h1 className="text-3xl md:text-5xl lg:text-6xl font-normal text-white mb-6 leading-tight">April 13–18, 2026</h1>
           <p className="text-lg md:text-2xl text-white mb-4 font-bold">Sugar Beach, Costa Rica  •  Blue Zone</p>
