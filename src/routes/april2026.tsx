@@ -104,7 +104,10 @@ function April2026Page() {
           <p className="text-lg text-gray-300 max-w-xl mx-auto">An oceanfront gathering for friends, family, and colleagues — no agenda, no pressure, just good people in an extraordinary place.</p>
         </div>
         <div className="absolute bottom-8 left-1/2 -translate-x-1/2 animate-bounce">
-          <ChevronDown className="w-8 h-8 text-white/70" />
+          <button onClick={() => scrollToSection('video')} className="bg-[#2d6a6a] hover:bg-[#1a4a4a] text-white font-medium px-6 py-2 rounded-full flex items-center gap-2 transition-colors shadow-lg">
+            See More
+            <ChevronDown className="w-5 h-5" />
+          </button>
         </div>
       </section>
 
@@ -587,11 +590,11 @@ function April2026Page() {
       </section>
 
       {/* Footer */}
-      <footer className="py-12 px-6 bg-gray-900 text-gray-400 text-center text-sm">
-        <p className="mb-4 text-gray-300 font-medium">Reunion Wellness Resort & Retreats</p>
-        <p className="mb-4">Sugar Beach, Guanacaste, Costa Rica</p>
+      <footer className="py-6 px-6 bg-gray-900 text-gray-400 text-center text-sm leading-tight">
+        <p className="text-gray-300 font-medium">Reunion Wellness Resort & Retreats</p>
+        <p>Sugar Beach, Guanacaste, Costa Rica</p>
         <a href="https://www.reunionexperience.org" target="_blank" rel="noopener noreferrer" className="text-amber-400 hover:text-amber-300 underline">www.reunionexperience.org</a>
-        <p className="mt-6 text-white text-sm">This retreat is independently organized. Reunion Wellness Resort provides the venue, accommodations, and on-site support.</p>
+        <p className="mt-2 text-white text-sm">This retreat is independently organized. Reunion Wellness Resort provides the venue, accommodations, and on-site support.</p>
       </footer>
     </div>
   )
