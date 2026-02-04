@@ -388,7 +388,7 @@ export function April2026Page() {
           <div className="grid md:grid-cols-2 gap-8 max-w-4xl mx-auto mb-12">
             {/* Base Rates */}
             <div className="bg-[#f5f3ef] p-8 rounded-sm">
-              <h3 className="text-xl font-bold text-[#2d6a6a] mb-4">REUNION BASE RATES</h3>
+              <h3 className="text-xl font-bold text-[#2d6a6a] mb-4">REUNION BASE RATES - NO BUYOUT SCENARIO</h3>
               <p className="text-sm text-gray-600 mb-6">High Season (December–April) • All-Inclusive</p>
               <div className="space-y-3">
                 <div className="flex justify-between">
