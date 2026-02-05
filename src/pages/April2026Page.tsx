@@ -87,7 +87,7 @@ export function April2026Page() {
       </button>
 
       {/* Hero Section */}
-      <section className="relative min-h-[70vh] flex items-center justify-center overflow-hidden">
+      <section className="relative min-h-[70vh] flex items-center justify-center overflow-hidden bg-[#1a4a4a]">
         <div className="absolute inset-0 bg-cover bg-center" style={{backgroundImage: 'url(/reunion2.jpg)'}}>
           <div className="absolute inset-0 bg-black/25"></div>
         </div>
