@@ -86,8 +86,10 @@ export function April2026Page() {
         <ChevronUp className="w-6 h-6" />
       </button>
 
+      {/* Hero + Video wrapper — shared background eliminates section seam */}
+      <div className="bg-[#1a4a4a]">
       {/* Hero Section */}
-      <section className="relative min-h-[70vh] flex items-center justify-center overflow-hidden bg-[#1a4a4a]">
+      <section className="relative min-h-[70vh] flex items-center justify-center overflow-hidden">
         <div className="absolute inset-0 bg-cover bg-center" style={{backgroundImage: 'url(/reunion2.jpg)'}}>
           <div className="absolute inset-0 bg-black/25"></div>
         </div>
@@ -107,7 +109,7 @@ export function April2026Page() {
       </section>
 
       {/* Featured Video Section */}
-      <section id="video" className="-mt-px py-16 md:py-24 px-6 bg-gradient-to-b from-[#1a4a4a] to-[#2d6a6a] scroll-mt-16">
+      <section id="video" className="py-16 md:py-24 px-6 bg-gradient-to-b from-[#1a4a4a] to-[#2d6a6a] scroll-mt-16">
         <div className="max-w-6xl mx-auto">
           <div className="text-center mb-10">
             <span className="inline-block bg-amber-400 text-gray-900 text-sm font-bold uppercase tracking-wider px-4 py-2 rounded-full mb-6">Featured Video</span>
@@ -135,6 +137,7 @@ export function April2026Page() {
           </div>
         </div>
       </section>
+      </div>{/* end Hero + Video wrapper */}
 
       {/* Explore More — Media & Resources */}
       <section id="explore" className="py-16 px-6 bg-white">
