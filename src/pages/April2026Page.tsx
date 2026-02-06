@@ -545,7 +545,7 @@ export function April2026Page() {
             {/* Michael Martone */}
             <div className="bg-white/10 backdrop-blur-sm rounded-lg p-6 text-center w-full md:w-[calc(50%-12px)] lg:w-[calc(33.333%-16px)]">
               <h4 className="text-lg font-bold text-white mb-1">Michael Martone</h4>
-              <p className="text-amber-300 text-sm mb-4">Life Coach & Author</p>
+              <p className="text-amber-300 text-sm mb-4">Attorney, Life Coach & Author</p>
               <div className="space-y-2">
                 <a href="mailto:michaelmartone@gmail.com" className="flex items-center justify-center gap-2 text-gray-200 hover:text-amber-300 text-sm transition-colors">
                   <Mail className="w-4 h-4 flex-shrink-0" />
