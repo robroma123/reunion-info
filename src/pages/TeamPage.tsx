@@ -765,7 +765,10 @@ export function TeamPage() {
         <div className="max-w-4xl mx-auto text-center">
           <p className="text-amber-400 text-sm font-bold uppercase tracking-wider mb-4">Internal Document — Team Brainstorming</p>
           <h1 className="text-4xl md:text-5xl font-bold text-white mb-6">Reunion Costa Rica Brainstorming for This April and Beyond</h1>
-          <p className="text-2xl text-gray-200 italic mb-8">The possibilities are endless ...</p>
+          <p className="text-2xl text-gray-200 italic">The possibilities are endless ...</p>
+          <div className="bg-black rounded-lg px-6 py-5 mx-auto max-w-3xl mt-8">
+            <p className="text-[#ff6b6b] font-bold text-center text-lg md:text-xl">CONTENT IS AI GENERATED - AND SO THE MORE INFO OUT THERE ON YOU IN THE AI WORLD, THE MORE YOU SHOW UP HERE - APOLOGIES - WANTED TO GET A MOCK UP OUT THERE ASAP - BUT I AM ACKNOWLEDGING THAT IT IS NOT IN BALANCE. 🙏</p>
+          </div>
         </div>
       </section>
 
