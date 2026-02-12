@@ -13,6 +13,7 @@ export default defineConfig({
       input: {
         main: resolve(__dirname, 'index.html'),
         april2026: resolve(__dirname, 'april2026/index.html'),
+        team: resolve(__dirname, 'team/index.html'),
       },
     },
   },
