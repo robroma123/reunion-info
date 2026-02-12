@@ -800,7 +800,7 @@ export function TeamPage() {
       {/* Retreat Catalog Header */}
       <section className="py-12 px-6 bg-[#2d6a6a]">
         <div className="max-w-4xl mx-auto text-center">
-          <h2 className="text-3xl md:text-4xl font-bold text-white mb-4">Retreat Catalog</h2>
+          <h2 className="text-3xl md:text-4xl font-bold text-white mb-4">Retreat Brainstorming Ideas</h2>
           <p className="text-xl text-gray-200">49 retreat concepts across 12 themes</p>
           <div className="mt-6 inline-block bg-white/10 backdrop-blur-sm rounded-lg px-6 py-3 border border-white/20">
             <p className="text-white font-medium flex items-center justify-center gap-2">
