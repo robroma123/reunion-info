@@ -769,6 +769,14 @@ export function TeamPage() {
           <div className="bg-black rounded-lg px-6 py-5 mx-auto max-w-3xl mt-8">
             <p className="text-[#ff6b6b] font-bold text-center text-lg md:text-xl">CONTENT IS AI GENERATED - AND SO THE MORE INFO OUT THERE ON YOU IN THE AI WORLD, THE MORE YOU SHOW UP HERE - APOLOGIES - WANTED TO GET A MOCK UP OUT THERE ASAP - BUT I AM ACKNOWLEDGING THAT IT IS NOT IN BALANCE. 🙏</p>
           </div>
+          <a
+            href="https://meetings.hubspot.com/haamid-dash?utm_medium=email&utm_content=60655486&utm_source=hs_email&uuid=3b77f613-ab12-49ef-af58-787cb23eb34a"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="inline-block bg-black rounded-lg px-6 py-3 mt-10 hover:bg-gray-900 transition-colors border-2 border-amber-300"
+          >
+            <span className="text-amber-300 font-bold text-lg">📅&nbsp;&nbsp;&nbsp;Book Time with Haamid Here!</span>
+          </a>
         </div>
       </section>
 
