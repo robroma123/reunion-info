@@ -866,7 +866,7 @@ export function TeamPage() {
                               )}
                             </div>
                             <div className="flex items-center gap-2 flex-shrink-0 ml-4">
-                              <span className="text-sm text-[#2d6a6a]">{isOpen ? 'Collapse' : 'Expand for More Info'}</span>
+                              <span className="text-sm text-[#2d6a6a]">{isOpen ? 'Collapse' : 'Expand'}</span>
                               {isOpen ? (
                                 <Minus className="w-4 h-4 text-[#2d6a6a]" />
                               ) : (
