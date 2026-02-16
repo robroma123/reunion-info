@@ -25,6 +25,26 @@ export function TeamPage() {
   const [scrollY, setScrollY] = useState(0)
   const [openTheme, setOpenTheme] = useState<number | null>(null)
   const [openRetreat, setOpenRetreat] = useState<string | null>(null)
+  const [countdown, setCountdown] = useState({ days: 0, hours: 0, minutes: 0 })
+
+  useEffect(() => {
+    const calculateCountdown = () => {
+      const targetDate = new Date('2026-04-13T00:00:00')
+      const now = new Date()
+      const diff = targetDate.getTime() - now.getTime()
+
+      if (diff > 0) {
+        const days = Math.floor(diff / (1000 * 60 * 60 * 24))
+        const hours = Math.floor((diff % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60))
+        const minutes = Math.floor((diff % (1000 * 60 * 60)) / (1000 * 60))
+        setCountdown({ days, hours, minutes })
+      }
+    }
+
+    calculateCountdown()
+    const interval = setInterval(calculateCountdown, 60000) // Update every minute
+    return () => clearInterval(interval)
+  }, [])
 
   useEffect(() => {
     const handleScroll = () => setScrollY(window.scrollY)
@@ -763,7 +783,7 @@ export function TeamPage() {
       {/* Header Section */}
       <section className="py-16 px-6 bg-gradient-to-b from-[#2d6a6a] to-[#1a4a4a]">
         <div className="max-w-4xl mx-auto text-center">
-          <p className="text-amber-400 text-sm font-bold uppercase tracking-wider mb-4">Internal Document — Team Brainstorming</p>
+          <p className="text-amber-400 text-lg font-bold uppercase tracking-wider mb-4">Internal Document — Team Brainstorming</p>
           <h1 className="text-4xl md:text-5xl font-bold text-white mb-6">Reunion Costa Rica Brainstorming for This April and Beyond</h1>
           <p className="text-2xl text-gray-200 italic">The possibilities are endless ...</p>
           <div className="bg-black rounded-lg px-6 py-5 mx-auto max-w-3xl mt-8">
@@ -777,6 +797,25 @@ export function TeamPage() {
           >
             <span className="text-amber-300 font-bold text-lg">📅&nbsp;&nbsp;&nbsp;Book Time with Haamid Here!</span>
           </a>
+          <div className="bg-black rounded-lg px-6 py-5 mx-auto max-w-xl mt-10">
+            <p className="text-white font-bold text-center text-lg mb-3">Days Until Costa Rica</p>
+            <div className="flex justify-center items-center gap-4 text-[#ff6b6b]">
+              <div className="text-center">
+                <span className="text-4xl md:text-5xl font-bold">{countdown.days}</span>
+                <p className="text-sm text-white mt-1">Days</p>
+              </div>
+              <span className="text-3xl font-bold">|</span>
+              <div className="text-center">
+                <span className="text-4xl md:text-5xl font-bold">{countdown.hours}</span>
+                <p className="text-sm text-white mt-1">Hours</p>
+              </div>
+              <span className="text-3xl font-bold">|</span>
+              <div className="text-center">
+                <span className="text-4xl md:text-5xl font-bold">{countdown.minutes}</span>
+                <p className="text-sm text-white mt-1">Minutes</p>
+              </div>
+            </div>
+          </div>
         </div>
       </section>
 
